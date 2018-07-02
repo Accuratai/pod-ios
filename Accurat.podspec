@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://accurat.ai/"
 
-  s.license      = "MIT (example)"
-  s.author             = { "Mathias Van Houtte" => "mathias.van.houtte@endare.com" }
+  s.license      = 'MIT'
+  s.author       = { "Mathias Van Houtte" => "mathias.van.houtte@endare.com" }
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://gitlab.com/accuratai/pod-ios" }
+  s.source       = { :git => "https://gitlab.com/accuratai/pod-ios", :tag => s.version }
   s.ios.vendored_frameworks = 'Accurat.framework'
 
 end
