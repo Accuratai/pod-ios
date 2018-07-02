@@ -1,0 +1,11 @@
+framework module Accurat {
+  umbrella header "Accurat.h"
+
+  export *
+  module * { export * }
+}
+
+module Accurat.Swift {
+    header "Accurat-Swift.h"
+    requires objc
+}
