@@ -1,0 +1,1 @@
+This repo contains the cocoapod for the Accurat SDK
