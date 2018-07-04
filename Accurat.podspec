@@ -24,7 +24,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://gitlab.com/accuratai/pod-ios", :tag => s.version }
   s.ios.vendored_frameworks = 'Accurat.framework'
 
-  s.dependency 'Alamofire', '~> 4.7.2'
-  s.dependency 'SwiftyJSON', '~> 4.1.0'
-
 end
