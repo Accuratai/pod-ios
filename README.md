@@ -6,6 +6,8 @@ This repository contains the cocoapod for the Accurat SDK
 * Requirements
 * Installation
 * Usage
+* GDPR
+* Changelog
 
 ## Requirements
 
