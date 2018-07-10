@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Accurat"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "Accurat SDK."
   s.description  = <<-DESC
   Accurat SDK description0o
