@@ -4,8 +4,9 @@ This repository contains the cocoapod for the Accurat SDK
 
 ## What is this repository for? ##
 * Requirements
-* Installation
-* Usage
+* Configure project
+* Add SDK to project
+* Integrate SDK into app
 * GDPR
 * Changelog
 
@@ -15,7 +16,21 @@ This repository contains the cocoapod for the Accurat SDK
 - Xcode 8.3+
 - Swift 4+
 
-## Installation
+## Configure project
+
+Add appropriate location usage descriptions to the `Info.plist` of your application. **Be sure to fill in your app name where appropriate (or edit the string as you see fit)**
+
+For **Xcode 9:**
+```xml
+<key>NSLocationAlwaysUsageDescription</key>
+<string>[App_name] would like to access location.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>[App_name] would like to access location.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>[App_name] would like to access location.</string>
+```
+
+## Add SDK to project
 
 ### CocoaPods
 
@@ -43,26 +58,18 @@ Then, run the following command:
 $ pod install
 ```
 
-## Usage
+## Integrate SDK into app
 
-### Initialize tracking
+### Import the SDK
 
-Add appropriate location usage descriptions to the `Info.plist` of your application. **Be sure to fill in your app name where appropriate (or edit the string as you see fit)**
-
-For **Xcode 9:**
-```xml
-<key>NSLocationAlwaysUsageDescription</key>
-<string>[App_name] would like to access location.</string>
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>[App_name] would like to access location.</string>
-<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>[App_name] would like to access location.</string>
+```swift
+import Accurat
 ```
 
-### Configure
+### Initialize SDK
 In the AppDelegate, start by configuring the username + password with the configure method:
 ```swift
-Accurat.shared.configure(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD")
+Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD")
 ```
 ### Start Tracking
 To start Accurat, call the startTracking method (also starts the consent flow, see GDPR):
