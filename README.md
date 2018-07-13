@@ -117,16 +117,23 @@ Accurat.shared.getConsentState(.tracking)
 ### Update consent state
 If you want to update the state of a consent, call the updateConsent method and provide a consent type + state:
 ```swift
-Accurat.shared.updateConsent(.tracking, state: true/false)
+Accurat.shared.updateConsent(.tracking, state: 0/1)
 ```
 
 ## Changelog
 
-### v1.0.1
+### v1.0.2 - 13/07/2018
+* updated the userconsent state so that it accepts integers as a state value
+* pass platform to the GET consent api call
+* use ios_transmission_interval instead of the transmission_interval of the GET settings
+* made the img tag clickable
+* the refuse button has a less striking color
+
+### v1.0.1 - 10/07/2018
 * Remove unnecessary logs
 * Updated the README
 
-### v1.0.0
+### v1.0.0 - 10/07/2018
 * Add consent flow + custom consent popups
 * Consents are now send to Jack+Joe
 * Location permission is updated if already set
@@ -134,15 +141,15 @@ Accurat.shared.updateConsent(.tracking, state: true/false)
 * Fetch + upload settings to Jack+Joe
 * Send device language to the server
 
-### v0.0.3
+### v0.0.3 - 04/07/2018
 * Allow external developers to configure the username+password
 
-### v0.0.2
+### v0.0.2 - 04/07/2018
 * Bugfixes
 * Added the cocoapod
 * Fetch + parse consents from Jack+Joe
 
-### v0.0.1
+### v0.0.1 - 02/07/2018
 * Bugfixes
 * Tracking send to Jack+Joe
 * Added the cocoapod
