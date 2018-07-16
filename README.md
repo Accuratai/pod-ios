@@ -79,12 +79,17 @@ Accurat.shared.startTracking()
 ### Stop Tracking
 To stop Accurat, call the stopTracking method:
 ```swift
-Accurat.shared.stopTracking();
+Accurat.shared.stopTracking()
 ```
 ### Is tracking enabled?
 If you want to know if the tracking is enabled or not, call the isTrackingEnabled variable:
 ```swift
-Accurat.shared.isTrackingEnabled;
+Accurat.shared.isTrackingEnabled
+```
+### Set language
+If you want to change the language of the consent popups, you can update the language. When no language is, the device language is used
+```swift
+Accurat.shared.setLanguage(.en/.nl/.fr)
 ```
 
 ### Additional location updates via Background Fetch
@@ -123,11 +128,13 @@ Accurat.shared.updateConsent(.tracking, state: 0/1)
 ## Changelog
 
 ### v1.0.2 - 13/07/2018
-* updated the userconsent state so that it accepts integers as a state value
-* pass platform to the GET consent api call
-* use ios_transmission_interval instead of the transmission_interval of the GET settings
-* made the img tag clickable
-* the refuse button has a less striking color
+* Bugfixes
+* Updated the userconsent state so that it accepts integers as a state value
+* Pass platform to the GET consent api call
+* Use ios_transmission_interval instead of the transmission_interval of the GET settings
+* Made the img tag clickable
+* The refuse button has a less striking color
+* You can now set the language for the consent popups
 
 ### v1.0.1 - 10/07/2018
 * Remove unnecessary logs
