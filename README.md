@@ -127,6 +127,10 @@ Accurat.shared.updateConsent(.tracking, state: 0/1)
 
 ## Changelog
 
+### v1.0.3 - 13/07/2018
+* Bugfixes
+* Updated the context of the locations
+
 ### v1.0.2 - 13/07/2018
 * Bugfixes
 * Updated the userconsent state so that it accepts integers as a state value
