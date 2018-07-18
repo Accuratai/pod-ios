@@ -62,7 +62,7 @@ $ pod install
 
 ## Integrate SDK into app
 
-### Import the SDK
+### Import the SDK (required)
 
 ```swift
 import Accurat
@@ -92,8 +92,8 @@ Accurat.shared.startTracking()
 It is recommended to implement this method in your `AppDelegate`:
 ```swift
 func applicationWillEnterForeground(_ application: UIApplication) {
-        Accurat.shared.startTracking()
-    }
+     Accurat.shared.startTracking()
+}
 ```
 
 ### Stop Tracking (optional)
