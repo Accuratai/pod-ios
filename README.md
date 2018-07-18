@@ -137,7 +137,9 @@ Accurat.shared.updateConsent(.tracking, state: 0/1)
 
 Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: *This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life.*
 
-Have questions? Email us at steven@accurat.ai.
+--
+
+Do you have any questions? E-mail us at steven@accurat.ai.
 
 ## Changelog
 
