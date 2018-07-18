@@ -143,6 +143,10 @@ Do you have any questions? E-mail us at steven@accurat.ai.
 
 ## Changelog
 
+### v1.0.4 - 18/07/2018
+* Bugfixes
+* Improved logs
+
 ### v1.0.3 - 13/07/2018
 * Bugfixes
 * Updated the context of the locations
