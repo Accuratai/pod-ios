@@ -1,13 +1,12 @@
 # Accurat SDK #
 
-This repository contains the cocoapod for the Accurat SDK
+This repository contains the cocoapod for the Accurat SDK. You can find the instruction to integrate the Accurat SDK into your iOS app below.
 
-## What is this repository for? ##
+## Content ##
 * Requirements
 * Configure project
 * Add SDK to project
 * Integrate SDK into app
-* GDPR
 * Changelog
 
 ## Requirements
@@ -18,17 +17,19 @@ This repository contains the cocoapod for the Accurat SDK
 
 ## Configure project
 
-Add appropriate location usage descriptions to the `Info.plist` of your application. **Be sure to fill in your app name where appropriate (or edit the string as you see fit)**
+Add appropriate location usage descriptions to the `Info.plist` of your application. **Be sure to fill in your app name where appropriate (or edit the string as you see fit).** These strings will be displayed when prompting the user for background location permissions.
 
-For **Xcode 9:**
+For **Xcode 9**:
 ```xml
 <key>NSLocationAlwaysUsageDescription</key>
-<string>[App_name] would like to access location.</string>
+<string>Allow location access to personalize your experience.</string>
 <key>NSLocationWhenInUseUsageDescription</key>
-<string>[App_name] would like to access location.</string>
+<string>Allow location access to personalize your experience.</string>
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>[App_name] would like to access location.</string>
+<string>Allow location access to personalize your experience.</string>
 ```
+
+Then, in your project settings, go to *Capabilities > Background Modes* and turn on *Background fetch*.
 
 ## Add SDK to project
 
@@ -71,33 +72,8 @@ In the AppDelegate, start by configuring the username + password with the config
 ```swift
 Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD")
 ```
-### Start Tracking
-To start Accurat, call the startTracking method (also starts the consent flow, see GDPR):
-```swift
-Accurat.shared.startTracking()
-```
-### Stop Tracking
-To stop Accurat, call the stopTracking method:
-```swift
-Accurat.shared.stopTracking()
-```
-### Is tracking enabled?
-If you want to know if the tracking is enabled or not, call the isTrackingEnabled variable:
-```swift
-Accurat.shared.isTrackingEnabled
-```
-### Set language
-If you want to change the language of the consent popups, you can update the language. When no language is, the device language is used
-```swift
-Accurat.shared.setLanguage(.en/.nl/.fr)
-```
 
-### Additional location updates via Background Fetch
-If you would like more periodic location updates, you can enable background fetch to allow the application to poll for location updates periodically.
-
-Ensure that `Background Fetch` mode is enabled in your project
-
-Additionally, implement the following method in your `AppDelegate`
+Additionally, implement the following method in your `AppDelegate`:
 
 ```swift
 func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
@@ -105,25 +81,54 @@ func application(_ application: UIApplication, performFetchWithCompletionHandler
 }
 ```
 
-## GDPR
+### Start Tracking
+To start Accurat, call the startTracking method (also starts the consent flow, see GDPR):
+```swift
+Accurat.shared.startTracking()
+```
 
-### Start consent flow
+### Stop Tracking
+To stop Accurat, call the stopTracking method:
+```swift
+Accurat.shared.stopTracking()
+```
+
+### Is tracking enabled?
+If you want to know if the tracking is enabled or not, call the isTrackingEnabled variable:
+```swift
+Accurat.shared.isTrackingEnabled
+```
+
+### Set language
+If you want to change the language of the user, you can update the language. This language will i.e. be used in the consent popups. When no language is, the device language is used.
+```swift
+Accurat.shared.setLanguage(.en/.nl/.fr)
+```
+
+### GDPR
+
+Before tracking the user's location, the user is asked to authorize location permissions for the app and give consent to use his location data.
+
 If you want to start the consent flow separately from the tracking, call the askConsents method (also started by the tracking):
 ```swift
 Accurat.shared.askConsents(onComplete: onComplete)
 ```
 
-### Get consent state
 If you want to get the state of a consent, call the getConsentState method and provide a consent type:
 ```swift
 Accurat.shared.getConsentState(.tracking)
 ```
 
-### Update consent state
 If you want to update the state of a consent, call the updateConsent method and provide a consent type + state:
 ```swift
 Accurat.shared.updateConsent(.tracking, state: 0/1)
 ```
+
+## Submit to App Store
+
+Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: `This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life.`
+
+Have questions? Email us at steven@accurat.ai.
 
 ## Changelog
 
