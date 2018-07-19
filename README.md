@@ -143,6 +143,10 @@ Do you have any questions? E-mail us at steven@accurat.ai.
 
 ## Changelog
 
+### v1.0.5 - 19/07/2018
+* Bugfixes
+* Improvements for popup view
+
 ### v1.0.4 - 18/07/2018
 * Bugfixes
 * Improved logs
