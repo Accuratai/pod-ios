@@ -143,7 +143,10 @@ Do you have any questions? E-mail us at steven@accurat.ai.
 
 ## Changelog
 
-### v1.0.5 - stable release - 19/07/2018
+### v1.0.6 - stable release - 19/07/2018
+* Improvements to the framework
+
+### v1.0.5 - 19/07/2018
 * Bugfixes
 * Improvements for popup view
 
