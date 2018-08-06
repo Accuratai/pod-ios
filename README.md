@@ -8,7 +8,7 @@ This repository contains the cocoapod for the Accurat SDK. You can find the inst
 * Add SDK to project
 * Integrate SDK into app
 * Submit to App Store
-* Changelog
+* Contact
 
 ## Requirements
 
@@ -137,6 +137,6 @@ Accurat.shared.updateConsent(.tracking, state: 0/1)
 
 Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: *This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life.*
 
---
+## Contact
 
 Do you have any questions? E-mail us at steven@accurat.ai.
