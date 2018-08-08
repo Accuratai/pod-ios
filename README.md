@@ -89,12 +89,6 @@ To start Accurat, call the startTracking method (also starts the consent flow, s
 ```swift
 Accurat.shared.startTracking()
 ```
-It is recommended to implement this method in your `AppDelegate`:
-```swift
-func applicationWillEnterForeground(_ application: UIApplication) {
-     Accurat.shared.startTracking()
-}
-```
 
 ### Stop Tracking (optional)
 To stop Accurat, call the stopTracking method:
