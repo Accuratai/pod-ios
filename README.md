@@ -8,7 +8,7 @@ This repository contains the cocoapod for the Accurat SDK. You can find the inst
 * Add SDK to project
 * Integrate SDK into app
 * Submit to App Store
-* Changelog
+* Contact
 
 ## Requirements
 
@@ -89,13 +89,12 @@ To start Accurat, call the startTracking method (also starts the consent flow, s
 ```swift
 Accurat.shared.startTracking()
 ```
-It is recommended to implement this method in your `AppDelegate`:
+It is recommended to implement this method in your `AppDelegate` after the `initialize`:
 ```swift
-func applicationWillEnterForeground(_ application: UIApplication) {
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
      Accurat.shared.startTracking()
 }
 ```
-
 ### Stop Tracking (optional)
 To stop Accurat, call the stopTracking method:
 ```swift
@@ -137,6 +136,6 @@ Accurat.shared.updateConsent(.tracking, state: 0/1)
 
 Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: *This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life.*
 
---
+## Contact
 
 Do you have any questions? E-mail us at steven@accurat.ai.
