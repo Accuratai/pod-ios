@@ -1,6 +1,11 @@
 
 ## Changelog
 
+### v1.1.1 - stable release - 16/08/2018
+* Improvements to the framework
+* Bugfixes
+
+
 ### v1.1.0 - stable release - 03/08/2018
 * Bugfixes
 * Improvements to the framework
