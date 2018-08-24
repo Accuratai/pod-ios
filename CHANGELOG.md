@@ -1,67 +1,82 @@
-
 ## Changelog
 
-### v1.1.1 - stable release - 16/08/2018
-* Improvements to the framework
-* Bugfixes
+### v1.1.2 - stable release - 24/08/2018
 
+- Improvements to the framework
+- Bugfixes
+
+### v1.1.1 - 16/08/2018
+
+- Improvements to the framework
+- Bugfixes
 
 ### v1.1.0 - stable release - 03/08/2018
-* Bugfixes
-* Improvements to the framework
-* Added unlimited geofences
-* Added local notification for geofence
-* Fetch more locations
-* Improvements for the popup view
-* Improvements for the memory
+
+- Bugfixes
+- Improvements to the framework
+- Added unlimited geofences
+- Added local notification for geofence
+- Fetch more locations
+- Improvements for the popup view
+- Improvements for the memory
 
 ### v1.0.6 - 19/07/2018
-* Improvements to the framework
+
+- Improvements to the framework
 
 ### v1.0.5 - 19/07/2018
-* Bugfixes
-* Improvements for the popup view
+
+- Bugfixes
+- Improvements for the popup view
 
 ### v1.0.4 - 18/07/2018
-* Bugfixes
-* Improved logs
+
+- Bugfixes
+- Improved logs
 
 ### v1.0.3 - 13/07/2018
-* Bugfixes
-* Updated the context of the locations
+
+- Bugfixes
+- Updated the context of the locations
 
 ### v1.0.2 - 13/07/2018
-* Bugfixes
-* Updated the userconsent state so that it accepts integers as a state value
-* Pass platform to the GET consent api call
-* Use ios_transmission_interval instead of the transmission_interval of the GET settings
-* Made the img tag clickable
-* The refuse button has a less striking color
-* You can now set the language for the consent popups
+
+- Bugfixes
+- Updated the userconsent state so that it accepts integers as a state value
+- Pass platform to the GET consent api call
+- Use ios_transmission_interval instead of the transmission_interval of the GET settings
+- Made the img tag clickable
+- The refuse button has a less striking color
+- You can now set the language for the consent popups
 
 ### v1.0.1 - 10/07/2018
-* Remove unnecessary logs
-* Updated the README
+
+- Remove unnecessary logs
+- Updated the README
 
 ### v1.0.0 - 10/07/2018
-* Add consent flow + custom consent popups
-* Consents are now send to API
-* Location permission is updated if already set
-* Improved logging
-* Fetch + upload settings to API
-* Send device language to the server
+
+- Add consent flow + custom consent popups
+- Consents are now send to API
+- Location permission is updated if already set
+- Improved logging
+- Fetch + upload settings to API
+- Send device language to the server
 
 ### v0.0.3 - 04/07/2018
-* Allow external developers to configure the username+password
+
+- Allow external developers to configure the username+password
 
 ### v0.0.2 - 04/07/2018
-* Bugfixes
-* Added the cocoapod
-* Fetch + parse consents from API
+
+- Bugfixes
+- Added the cocoapod
+- Fetch + parse consents from API
 
 ### v0.0.1 - 02/07/2018
-* Bugfixes
-* Tracking send to API
-* Added the cocoapod
-* Updated the accessibility for the files
-* Initial commit
+
+- Bugfixes
+- Tracking send to API
+- Added the cocoapod
+- Updated the accessibility for the files
+- Initial commit
