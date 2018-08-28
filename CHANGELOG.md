@@ -1,6 +1,10 @@
 ## Changelog
 
-### v1.1.2 - stable release - 24/08/2018
+### v1.1.3 - stable release - 28/08/2018
+
+- Bugfix GDPR flow
+
+### v1.1.2 - 24/08/2018
 
 - Improvements to the framework
 - Bugfixes
