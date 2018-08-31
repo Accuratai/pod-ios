@@ -1,6 +1,10 @@
 ## Changelog
 
-### v1.1.3 - stable release - 28/08/2018
+### v1.1.4 - stable release - 31/08/2018
+
+- Bugfix visits timestamp
+
+### v1.1.3 - 28/08/2018
 
 - Bugfix GDPR flow
 
