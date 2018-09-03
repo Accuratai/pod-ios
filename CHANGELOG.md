@@ -1,6 +1,10 @@
 ## Changelog
 
-### v1.1.4 - stable release - 31/08/2018
+### v1.1.5 - stable release - 3/09/2018
+
+- Background fetch improvements
+
+### v1.1.4 - 31/08/2018
 
 - Bugfix visits timestamp
 
