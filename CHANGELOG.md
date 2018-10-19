@@ -1,6 +1,10 @@
 ## Changelog
 
-### v1.1.6 - stable release - 10/10/2018
+### v1.1.7 - stable release - 19/10/2018
+
+- Bugfixes
+
+### v1.1.6 - 10/10/2018
 
 - Bugfixes
 
