@@ -116,7 +116,7 @@ Accurat.shared.setLanguage(.en/.nl/.fr)
 ### Interact (optional)
 Add touchpoint interaction.
 ```swift
-Accurat.shared.interact(_ group: String, campaign: String, touchPoint: String, onComplete: ((isSuccess) -> Void)?)
+Accurat.shared.interact(_ group: String, campaign: String, touchpoint: String, onComplete: ((isSuccess) -> Void)?)
 ```
 
 ### GDPR (optional)
