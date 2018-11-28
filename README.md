@@ -113,6 +113,12 @@ If you want to change the language of the user, you can update the language. Thi
 Accurat.shared.setLanguage(.en/.nl/.fr)
 ```
 
+### Interact (optional)
+Add touchpoint interaction.
+```swift
+Accurat.shared.interact(_ group: String, campaign: String, touchPoint: String, onComplete: ((isSuccess) -> Void)?)
+```
+
 ### GDPR (optional)
 
 Before tracking the user's location, the user is asked to authorize location permissions for the app and give consent to use his location data.
