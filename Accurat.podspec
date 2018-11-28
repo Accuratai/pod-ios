@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Accurat"
-  s.version      = "1.1.8"
+  s.version      = "1.2.0"
   s.homepage     = "https://accurat.ai/"
   s.summary      = "The Accurat iOS SDK puts location intelligence at your fingertips."
   s.author                = { 'Accurat' => 'sdk@accurat.ai' }
