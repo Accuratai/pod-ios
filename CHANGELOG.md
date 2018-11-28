@@ -1,6 +1,12 @@
 ## Changelog
 
-### v1.1.8 - stable release - 19/10/2018
+### v1.2.0 - stable release - 29/11/2018
+
+- Added the interact function
+- Crash fix when Adid was disabled
+- Bugfixes
+
+### v1.1.8 - 19/10/2018
 
 - Bugfixes
 
