@@ -3,7 +3,7 @@
 //  Accurat
 //
 //  Created by Mathias Van Houtte on 21/06/2018.
-//  Copyright © 2018 endare. All rights reserved.
+//  Copyright © 2018 Accurat. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

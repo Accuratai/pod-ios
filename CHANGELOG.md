@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.3.0 - stable release - 9/01/2019
+
+- Split the location permission into two permissions (location tracking and always location tracking)
+
 ### v1.2.0 - stable release - 29/11/2018
 
 - Added the interact function
