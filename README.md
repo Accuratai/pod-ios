@@ -130,12 +130,12 @@ Accurat.shared.askConsents(onComplete: onComplete)
 
 If you want to get the state of a consent, call the getConsentState method and provide a consent type:
 ```swift
-Accurat.shared.getConsentState(.tracking)
+Accurat.shared.getConsentState(.gdpr)
 ```
 
 If you want to update the state of a consent, call the updateConsent method and provide a consent type + state:
 ```swift
-Accurat.shared.updateConsent(.tracking, state: 0/1)
+Accurat.shared.updateConsent(.gdpr, state: 0/1)
 ```
 
 ## Submit to App Store
