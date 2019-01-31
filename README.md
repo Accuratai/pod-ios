@@ -119,6 +119,12 @@ Add touchpoint interaction.
 Accurat.shared.interact(_ group: String, campaign: String, touchpoint: String, onComplete: ((isSuccess) -> Void)?)
 ```
 
+### Get segments (optional)
+Fetch segments the current consumer belongs to. If the consumer does not exist, an empty list is returned.
+```swift
+Accurat.shared.getSegments(onComplete: @escaping (Array<String>) -> Void)
+```
+
 ### GDPR (optional)
 
 Before tracking the user's location, the user is asked to authorize location permissions for the app and give consent to use his location data.
