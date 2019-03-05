@@ -144,6 +144,16 @@ If you want to update the state of a consent, call the updateConsent method and 
 Accurat.shared.updateConsent(.gdpr, state: 0/1)
 ```
 
+### Notifications (optional)
+
+If you want to receive the local notifications and the extra data you need to subscribe to it in your AppDelegate
+
+```swift
+func application(_ application: UIApplication, didReceive notification: UILocalNotification)
+```
+
+notification.userInfo will contain the extra data that is related to that notification
+
 ## Submit to App Store
 
 Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: *This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life.*
