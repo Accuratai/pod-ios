@@ -1,5 +1,11 @@
 ## Changelog
 
+### v1.4.0 - stable release - 21/03/2019
+
+- Added the getSegments function
+- Added extra data to a local notification
+- Bugfixes
+
 ### v1.3.0 - stable release - 9/01/2019
 
 - Split the location permission into two permissions (location tracking and always location tracking)
