@@ -18,18 +18,6 @@ This repository contains the cocoapod for the Accurat SDK. You can find the inst
 
 ## Configure project
 
-Add appropriate location usage descriptions to the `Info.plist` of your application. These strings will be displayed when prompting the user for background location permissions.
-
-For **Xcode 9**:
-```xml
-<key>NSLocationAlwaysUsageDescription</key>
-<string>Allow location access to personalize your experience.</string>
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>Allow location access to personalize your experience.</string>
-<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>Allow location access to personalize your experience.</string>
-```
-
 In your project settings, go to *Capabilities > Background Modes* and turn on *Background fetch*.
 
 Then, add appropriate location usage descriptions to the `Info.plist` of your application. These strings will be displayed when prompting the user for location permissions.
@@ -70,7 +58,6 @@ NSLocationAlwaysAndWhenInUseUsageDescription = "Il est donc possible de vous env
  ```
 
 Manually add these files to the project bundle. This can be achieved via right-clicking the project name in Xcode and choosing the Add files to X option, then selecting the files.
-
 ## Add SDK to project
 
 ### CocoaPods
