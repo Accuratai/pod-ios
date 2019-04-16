@@ -30,7 +30,46 @@ For **Xcode 9**:
 <string>Allow location access to personalize your experience.</string>
 ```
 
-Then, in your project settings, go to *Capabilities > Background Modes* and turn on *Background fetch*.
+In your project settings, go to *Capabilities > Background Modes* and turn on *Background fetch*.
+
+Then, add appropriate location usage descriptions to the `Info.plist` of your application. These strings will be displayed when prompting the user for location permissions.
+
+For **Xcode 9**:
+```xml
+<key>NSLocationAlwaysUsageDescription</key>
+<string>This makes it possible to send you notifications with relevant info, even when you are not using the app.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>That way, we can personalize the content and ads in the app based on your preferences.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>This makes it possible to send you notifications with relevant info, even when you are not using the app.</string>
+```
+
+In order to support multiple languages, create a `InfoPlist.strings` file in the `<language>.lproj` directories for each language you want to support.
+
+Example languages:
+
+ * `en.lproj` 
+ ```
+NSLocationAlwaysUsageDescription = "This makes it possible to send you notifications with relevant info, even when you are not using the app.";
+NSLocationWhenInUseUsageDescription = "That way, we can personalize the content and ads in the app based on your preferences.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "This makes it possible to send you notifications with relevant info, even when you are not using the app.";
+ ```
+
+ * `nl.lproj` 
+ ```
+NSLocationAlwaysUsageDescription = "Zo is het mogelijk om u notificaties te versturen met gepersonaliseerde inhoud, ook wanneer u de app niet gebruikt.";
+NSLocationWhenInUseUsageDescription = "Zo kunnen we in de app de inhoud en advertenties personaliseren op maat van jouw voorkeuren.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Zo is het mogelijk om u notificaties te versturen met gepersonaliseerde inhoud, ook wanneer u de app niet gebruikt.";
+ ```
+
+ * `fr.lproj` 
+ ```
+NSLocationAlwaysUsageDescription = "Il est donc possible de vous envoyer des notifications avec un contenu personnalisé, même lorsque vous n'utilisez pas l'application.";
+NSLocationWhenInUseUsageDescription = "Comme ça, nous pouvons personnaliser le contenu et les publicités dans l'app en fonction de vos préférences.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Il est donc possible de vous envoyer des notifications avec un contenu personnalisé, même lorsque vous n'utilisez pas l'application.";
+ ```
+
+Manually add these files to the project bundle. This can be achieved via right-clicking the project name in Xcode and choosing the Add files to X option, then selecting the files.
 
 ## Add SDK to project
 

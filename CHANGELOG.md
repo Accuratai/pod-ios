@@ -1,6 +1,11 @@
 ## Changelog
 
-### v1.4.0 - stable release - 21/03/2019
+### v1.4.1 - stable release - 16/04/2019
+
+- Updated the README
+- Bugfixes
+
+### v1.4.0 - 21/03/2019
 
 - Added the getSegments function
 - Added extra data to a local notification
