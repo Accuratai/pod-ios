@@ -1,6 +1,10 @@
 ## Changelog
 
-### v1.4.1 - stable release - 16/04/2019
+### v1.4.2 - stable release - 13/05/2019
+
+- Bugfixes
+
+### v1.4.1 - 16/04/2019
 
 - Updated the README
 - Bugfixes
