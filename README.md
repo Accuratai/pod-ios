@@ -115,6 +115,11 @@ To start Accurat, call the startTracking method (also starts the consent flow, s
 ```swift
 Accurat.shared.startTracking()
 ```
+You can also pass a closure to receive an event when the SDK has finished the consent flow (the closure is optional):
+```swift
+Accurat.shared.startTracking(_ onComplete: (() -> Void)?)
+```
+
 It is recommended to implement this method in your `AppDelegate` after the `initialize`:
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
