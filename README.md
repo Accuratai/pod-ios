@@ -123,7 +123,10 @@ Accurat.shared.startTracking(_ onComplete: (() -> Void)?)
 It is recommended to implement this method in your `AppDelegate` after the `initialize`:
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-     Accurat.shared.startTracking()
+    Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD")
+    Accurat.shared.startTracking() {
+        //ask permission to send push notifications
+    }
 }
 ```
 ### Stop Tracking (optional)
