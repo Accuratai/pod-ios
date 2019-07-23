@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.4.4 - stable release - 23/07/2019
+
+- Bugfix callback for the startTracking
+
 ### v1.4.3 - stable release - 23/05/2019
 
 - Added a callback to the startTracking
