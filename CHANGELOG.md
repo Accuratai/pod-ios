@@ -1,5 +1,10 @@
 ## Changelog
 
+### v1.4.5 - stable release - 21/08/2019
+
+- Hyperlinks match the brandcolor
+- The interact is now batched
+
 ### v1.4.4 - stable release - 23/07/2019
 
 - Bugfix callback for the startTracking
