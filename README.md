@@ -158,7 +158,7 @@ Accurat.shared.stopTracking()
 Receive a callback when the SDK receives a new location. The array will at least contain one location that represents the current position:
 
 ```swift
-Accurat.shared.onLocationUpdate(callback: (([CLLocation]) -> Void)?)
+Accurat.shared.onLocationUpdate(callback: ([CLLocation]) -> Void)
 ```
 
 ### Is tracking enabled? (optional)
