@@ -153,9 +153,9 @@ To stop Accurat, call the stopTracking method:
 Accurat.shared.stopTracking()
 ```
 
-### Stop Tracking (optional)
+### Receive location updates (optional)
 
-Receive a callback when the SDK receives a new location. The array will at least contain one location that represents the current position.:
+Receive a callback when the SDK receives a new location. The array will at least contain one location that represents the current position:
 
 ```swift
 Accurat.shared.onLocationUpdate(callback: (([CLLocation]) -> Void)?)
