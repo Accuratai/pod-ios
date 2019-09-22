@@ -1,5 +1,10 @@
 ## Changelog
 
+### v1.5.0 - stable release - 22/09/2019
+
+- iOS 13.0 support
+- expose onLocationUpdate function
+
 ### v1.4.5 - stable release - 21/08/2019
 
 - Hyperlinks match the brandcolor
