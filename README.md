@@ -1,6 +1,6 @@
-# Accurat SDK
+# Accurat iOS SDK
 
-This repository contains the cocoapod for the Accurat SDK. You can find the instruction to integrate the Accurat SDK into your iOS app below.
+You can find the instruction to integrate the Accurat SDK into your iOS app below.
 
 ## Content
 
@@ -122,7 +122,7 @@ func application(_ application: UIApplication, performFetchWithCompletionHandler
 
 ### Start Tracking (required)
 
-To start Accurat, call the startTracking method (also starts the consent flow, see GDPR):
+Call the startTracking method to start tracking. This will also trigger the consent flow (see Consent Flow section).
 
 ```swift
 Accurat.shared.startTracking()
@@ -153,6 +153,41 @@ To stop Accurat, call the stopTracking method:
 Accurat.shared.stopTracking()
 ```
 
+### Is tracking enabled? (optional)
+
+If you want to know if the tracking is enabled or not, call the isTrackingEnabled variable:
+
+```swift
+Accurat.shared.isTrackingEnabled
+```
+
+### Consent flow (optional)
+
+When calling the `startTracking()`-method, it is checked if the user already gave GDPR consent to collect and use his data. If not, the user is asked for the GDPR consent through a popup.
+If the user agreed to the GDPR consent, popups are shown to ask his permission to retrieve his location when the app is in foreground or in background.
+
+If you want to start the consent flow separately from the tracking, call the askConsents method:
+
+```swift
+Accurat.shared.askConsents(onComplete: onComplete)
+```
+
+If you want to get the state of the GDPR consent, call the getConsentState method and provide a consent type:
+
+```swift
+Accurat.shared.getConsentState(.gdpr)
+```
+
+If you want to update the state of the GDPR consent, call the updateConsent method and provide a consent type + state:
+
+```swift
+Accurat.shared.updateConsent(.gdpr, state: 0/1)
+```
+
+Note:
+ - When you call the `updateConsent()`-method and change the state from `ConsentState.APPROVED` to `ConsentState.REFUSED`, the tracking will be stopped.
+ - When you call the `updateConsent()`-method before calling the `startTracking()`-method, the popup to ask the GDPR consent will not be shown as the SDK already knows the GDPR consent state.
+
 ### Receive location updates (optional)
 
 Receive a callback when the SDK receives a new location. The array will at least contain one location that represents the current position:
@@ -161,13 +196,15 @@ Receive a callback when the SDK receives a new location. The array will at least
 Accurat.shared.onLocationUpdate(callback: ([CLLocation]) -> Void)
 ```
 
-### Is tracking enabled? (optional)
+### Notifications (optional)
 
-If you want to know if the tracking is enabled or not, call the isTrackingEnabled variable:
+If you want to receive the local notifications and the extra data you need to subscribe to it in your AppDelegate
 
 ```swift
-Accurat.shared.isTrackingEnabled
+func application(_ application: UIApplication, didReceive notification: UILocalNotification)
 ```
+
+notification.userInfo will contain the extra data that is related to that notification.
 
 ### Set language (optional)
 
@@ -179,10 +216,10 @@ Accurat.shared.setLanguage(.en/.nl/.fr)
 
 ### Interact (optional)
 
-Add touchpoint interaction.
+Add interaction for consumer, based on given brand, campaign and touchpoint. If campaign and/or touchpoint does not exist, they will be created.
 
 ```swift
-Accurat.shared.interact(_ group: String, campaign: String, touchpoint: String, onComplete: ((isSuccess) -> Void)?)
+Accurat.shared.interact(_ brand: String, campaign: String, touchpoint: String, onComplete: ((isSuccess) -> Void)?)
 ```
 
 ### Get segments (optional)
@@ -192,38 +229,6 @@ Fetch segments the current consumer belongs to. If the consumer does not exist, 
 ```swift
 Accurat.shared.getSegments(onComplete: @escaping (Array<String>) -> Void)
 ```
-
-### GDPR (optional)
-
-Before tracking the user's location, the user is asked to authorize location permissions for the app and give consent to use his location data.
-
-If you want to start the consent flow separately from the tracking, call the askConsents method (also started by the tracking):
-
-```swift
-Accurat.shared.askConsents(onComplete: onComplete)
-```
-
-If you want to get the state of a consent, call the getConsentState method and provide a consent type:
-
-```swift
-Accurat.shared.getConsentState(.gdpr)
-```
-
-If you want to update the state of a consent, call the updateConsent method and provide a consent type + state:
-
-```swift
-Accurat.shared.updateConsent(.gdpr, state: 0/1)
-```
-
-### Notifications (optional)
-
-If you want to receive the local notifications and the extra data you need to subscribe to it in your AppDelegate
-
-```swift
-func application(_ application: UIApplication, didReceive notification: UILocalNotification)
-```
-
-notification.userInfo will contain the extra data that is related to that notification
 
 ## Submit to App Store
 
