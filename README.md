@@ -185,7 +185,7 @@ Accurat.shared.updateConsent(.gdpr, state: 0/1)
 ```
 
 Note:
- - When you call the `updateConsent()`-method and change the state from `ConsentState.APPROVED` to `ConsentState.REFUSED`, the tracking will be stopped.
+ - When you call the `updateConsent()`-method and change the state from 1 to 0, the tracking will be stopped.
  - When you call the `updateConsent()`-method before calling the `startTracking()`-method, the popup to ask the GDPR consent will not be shown as the SDK already knows the GDPR consent state.
 
 ### Receive location updates (optional)
