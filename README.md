@@ -164,7 +164,7 @@ Accurat.shared.isTrackingEnabled
 ### Consent flow (optional)
 
 When calling the `startTracking()`-method, it is checked if the user already gave GDPR consent to collect and use his data. If not, the user is asked for the GDPR consent through a popup.
-If the user agreed to the GDPR consent, popups are shown to ask his permission to retrieve his location when the app is in foreground or in background.
+If the user agreed to the GDPR consent, popups are shown to ask his permission to retrieve his location when the app is in foreground or in background. If the user gives GDPR consent and location permission, the tracking is started.
 
 If you want to start the consent flow separately from the tracking, call the askConsents method:
 
