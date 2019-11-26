@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.5.1 - stable release - 26/11/2019
+
+- Swift 5.1.2 support
+
 ### v1.5.0 - stable release - 22/09/2019
 
 - iOS 13.0 support
