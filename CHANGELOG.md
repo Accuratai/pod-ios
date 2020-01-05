@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.6.0 - stable release - 05/01/2020
+
+- Objective-c support
+
 ### v1.5.1 - stable release - 26/11/2019
 
 - Swift 5.1.2 support

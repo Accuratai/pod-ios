@@ -13,9 +13,13 @@ You can find the instruction to integrate the Accurat SDK into your iOS app belo
 
 ## Requirements
 
-- iOS 8.0+
+- iOS 9.0+
 - Xcode 8.3+
+
+## Compatibility
+
 - Swift 4+
+- Objective-c
 
 ## Configure project
 
@@ -185,8 +189,9 @@ Accurat.shared.updateConsent(.gdpr, state: 0/1)
 ```
 
 Note:
- - When you call the `updateConsent()`-method and change the state from 1 to 0, the tracking will be stopped.
- - When you call the `updateConsent()`-method before calling the `startTracking()`-method, the popup to ask the GDPR consent will not be shown as the SDK already knows the GDPR consent state.
+
+- When you call the `updateConsent()`-method and change the state from 1 to 0, the tracking will be stopped.
+- When you call the `updateConsent()`-method before calling the `startTracking()`-method, the popup to ask the GDPR consent will not be shown as the SDK already knows the GDPR consent state.
 
 ### Receive location updates (optional)
 
