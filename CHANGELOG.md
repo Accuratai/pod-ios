@@ -1,8 +1,12 @@
 ## Changelog
 
+### v1.6.2 - stable release - 19/01/2020
+
+- Bugfixes
+
 ### v1.6.1 - stable release - 16/01/2020
 
-- Removed armv7 from the supported architectures
+- Bugfixes
 
 ### v1.6.0 - stable release - 05/01/2020
 
