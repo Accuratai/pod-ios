@@ -203,6 +203,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class AccuratConfig;
 enum LanguageOption : NSInteger;
 
 SWIFT_CLASS("_TtC7Accurat7Accurat")
@@ -212,10 +213,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 + (void)setShared:(Accurat * _Nonnull)value;
 @property (nonatomic, readonly) BOOL isTrackingEnabled;
 - (void)initializeWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password;
+- (void)initializeWithConfig:(AccuratConfig * _Nonnull)config;
 - (void)setLanguage:(enum LanguageOption)language;
 - (void)startTracking:(void (^ _Nullable)(void))onComplete;
 - (void)stopTracking;
 - (BOOL)getCurrentLocationAsJSONAndReturnError:(NSError * _Nullable * _Nullable)error completion:(SWIFT_NOESCAPE void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable))completion;
+- (void)performBackgroundFetchWithCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
 - (void)interact:(NSString * _Nonnull)group campaign:(NSString * _Nonnull)campaign touchpoint:(NSString * _Nonnull)touchpoint onComplete:(void (^ _Nullable)(BOOL))onComplete;
 - (void)getSegmentsOnComplete:(void (^ _Nonnull)(NSArray<NSString *> * _Nonnull))onComplete;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -232,6 +235,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 - (void)askConsentsOnComplete:(void (^ _Nonnull)(void))onComplete;
 - (void)updateTrackingConsentWithState:(NSInteger)state;
 - (NSInteger)getConsentStateObjc:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
+@interface AccuratConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -475,6 +485,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class AccuratConfig;
 enum LanguageOption : NSInteger;
 
 SWIFT_CLASS("_TtC7Accurat7Accurat")
@@ -484,10 +495,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 + (void)setShared:(Accurat * _Nonnull)value;
 @property (nonatomic, readonly) BOOL isTrackingEnabled;
 - (void)initializeWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password;
+- (void)initializeWithConfig:(AccuratConfig * _Nonnull)config;
 - (void)setLanguage:(enum LanguageOption)language;
 - (void)startTracking:(void (^ _Nullable)(void))onComplete;
 - (void)stopTracking;
 - (BOOL)getCurrentLocationAsJSONAndReturnError:(NSError * _Nullable * _Nullable)error completion:(SWIFT_NOESCAPE void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable))completion;
+- (void)performBackgroundFetchWithCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
 - (void)interact:(NSString * _Nonnull)group campaign:(NSString * _Nonnull)campaign touchpoint:(NSString * _Nonnull)touchpoint onComplete:(void (^ _Nullable)(BOOL))onComplete;
 - (void)getSegmentsOnComplete:(void (^ _Nonnull)(NSArray<NSString *> * _Nonnull))onComplete;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -504,6 +517,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 - (void)askConsentsOnComplete:(void (^ _Nonnull)(void))onComplete;
 - (void)updateTrackingConsentWithState:(NSInteger)state;
 - (NSInteger)getConsentStateObjc:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
+@interface AccuratConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -747,6 +767,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class AccuratConfig;
 enum LanguageOption : NSInteger;
 
 SWIFT_CLASS("_TtC7Accurat7Accurat")
@@ -756,10 +777,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 + (void)setShared:(Accurat * _Nonnull)value;
 @property (nonatomic, readonly) BOOL isTrackingEnabled;
 - (void)initializeWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password;
+- (void)initializeWithConfig:(AccuratConfig * _Nonnull)config;
 - (void)setLanguage:(enum LanguageOption)language;
 - (void)startTracking:(void (^ _Nullable)(void))onComplete;
 - (void)stopTracking;
 - (BOOL)getCurrentLocationAsJSONAndReturnError:(NSError * _Nullable * _Nullable)error completion:(SWIFT_NOESCAPE void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable))completion;
+- (void)performBackgroundFetchWithCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
 - (void)interact:(NSString * _Nonnull)group campaign:(NSString * _Nonnull)campaign touchpoint:(NSString * _Nonnull)touchpoint onComplete:(void (^ _Nullable)(BOOL))onComplete;
 - (void)getSegmentsOnComplete:(void (^ _Nonnull)(NSArray<NSString *> * _Nonnull))onComplete;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -776,6 +799,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 - (void)askConsentsOnComplete:(void (^ _Nonnull)(void))onComplete;
 - (void)updateTrackingConsentWithState:(NSInteger)state;
 - (NSInteger)getConsentStateObjc:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
+@interface AccuratConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 

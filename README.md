@@ -5,6 +5,7 @@ You can find the instruction to integrate the Accurat SDK into your iOS app belo
 ## Content
 
 - Requirements
+- Compatibility
 - Configure project
 - Add SDK to project
 - Integrate SDK into app
@@ -111,10 +112,11 @@ Initialize the SDK in your `AppDelegate` class before calling any other Accurat 
 In `application(_:didFinishLaunchingWithOptions:)`, call:
 
 ```swift
-Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD")
+let config = AccuratConfig(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", features: [.gdpr, .location])
+Accurat.shared.initialize(config: config)
 ```
 
-where `ACCURAT_USERNAME` and `ACCURAT_PASSWORD` are strings containing your Accurat username and password.
+where `ACCURAT_USERNAME` and `ACCURAT_PASSWORD` are strings containing your Accurat username and password. `features` is an optional parameter which indicates the consents which are asked by the SDK (see Consent Flow section).
 
 Additionally, implement the following method in your `AppDelegate`:
 
@@ -126,7 +128,7 @@ func application(_ application: UIApplication, performFetchWithCompletionHandler
 
 ### Start Tracking (required)
 
-Call the startTracking method to start tracking. This will also trigger the consent flow (see Consent Flow section).
+Call the startTracking method to start tracking. If configured, this will also trigger the consent flow (see Consent Flow section).
 
 ```swift
 Accurat.shared.startTracking()
@@ -138,20 +140,88 @@ You can also pass a closure to receive an event when the SDK has finished the co
 Accurat.shared.startTracking(_ onComplete: (() -> Void)?)
 ```
 
-It is recommended to implement this method in your `AppDelegate` after the `initialize`:
+*The `startTracking`-method has to be called on each app start.*
+
+It is recommended to implement this method in your `AppDelegate` after the `initialize`.
+
+### Consent flow (required)
+
+Before the SDK starts tracking the users' coordinates, two consents have to be given by the user:
+
+1. The GDPR consent, which is a legal consent that is required to process personal data.
+2. The location consent, which is a technical consent that is required to be able to collect location data of the user.
+
+Asking the consents can be implemented by the SDK (recommended) or by the app developer himself.
+
+##### Implemented by SDK
+When `.gdpr` and `.location` features are given during the initialization, a flow which ask these consents is automatically started when the `startTracking`-method is called. The consent flow is visualized in this image:
+![consentflow](https://accurat.ai/assets/consentflow-ios.png "Consent Flow")
+
+First, the user is asked for the GDPR consent through a pop-up screen. Second, if the user agrees to the GDPR consent, pop-up dialogs are shown to ask his permissions to retrieve his locations. If the user gives GDPR consent and location permissions, the tracking is started.
+
+There is some functionality added to increase the conversion rate (users giving their gdpr and location consent):
+* If the user does not give his consent, the user is asked for the consent again with a delay of at least 48 hours. The consent is asked 3 times at most.
+* Before showing the iOS pop-up which asks the in-app location permission (screen 2b), we explain why the user should give his permission (screen 2a).
+* It is explained to the user that iOS will request his always location permission in the near future, with an explanation why the user should give this permission (screen 2c)
+
+The texts shown in the popup-screens and the number of delays (default 3) can be changed through our backend.
+
+This entire flow can be implemented by adding this code in your `AppDelegate`:
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD")
+    let config = AccuratConfig(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", features: [.gdpr, .location])
+    Accurat.shared.initialize(config: config)
+    // start tracking (which will also starts the consent flow)
     Accurat.shared.startTracking() {
-        //ask permission to send push notifications
+        //consent flow is finished, eg. ask permission to send push notifications
     }
 }
 ```
 
+##### Implemented by App Developer
+
+The consents can also be asked by the app developer in the existing flow of the app. Note that the tracking will only work if the SDK receives an approved gdpr and location consent.
+
+The GDPR consent state can be updated by calling the `updateConsent()`-method and provide a consent type and consent state:
+```swift
+Accurat.shared.updateConsent(.gdpr, state: 0/1)
+```
+
+If you want to get the state of the GDPR consent, call the `getConsentState()`-method:
+```swift
+Accurat.shared.getConsentState(.gdpr)
+```
+
+The location permission has not to be passed to the SDK, as the SDK retrieves the location permission of the user through the app settings on the device.
+
+Finally call `startTracking()` to start the tracking. Note that `startTracking()` has to be called on each app start, even when no consent states are changed.
+
+This entire flow can be implemented by adding this code in your `AppDelegate`:
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    let config = AccuratConfig(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", features: [])
+    Accurat.shared.initialize(config: config)
+    if (userOpensTheAppForTheFirstTime()) {
+        // Own GDPR consent handling
+        let gdprState = askOwnGdprConsent();
+        Accurat.shared.updateConsent(.gdpr, gdprState)
+    
+        // Own location permission handling
+        askOwnLocationPermission();
+    }
+    // start tracking
+    Accurat.shared.startTracking()
+}
+```
+
+The consent flow can also partially be implemented by the SDK and partially by the app developer. For instance, by only passing `.location` in the config, the GDPR consent has to be handled by the app developer, but the location permissions will be handled by the SDK.
+
+
 ### Stop Tracking (optional)
 
-To stop Accurat, call the stopTracking method:
+To stop the location tracking, call the `stopTracking`-method:
 
 ```swift
 Accurat.shared.stopTracking()
@@ -159,39 +229,11 @@ Accurat.shared.stopTracking()
 
 ### Is tracking enabled? (optional)
 
-If you want to know if the tracking is enabled or not, call the isTrackingEnabled variable:
+If you want to know if the tracking is enabled or not, call the `isTrackingEnabled` variable:
 
 ```swift
 Accurat.shared.isTrackingEnabled
 ```
-
-### Consent flow (optional)
-
-When calling the `startTracking()`-method, it is checked if the user already gave GDPR consent to collect and use his data. If not, the user is asked for the GDPR consent through a popup.
-If the user agreed to the GDPR consent, popups are shown to ask his permission to retrieve his location when the app is in foreground or in background. If the user gives GDPR consent and location permission, the tracking is started.
-
-If you want to start the consent flow separately from the tracking, call the askConsents method:
-
-```swift
-Accurat.shared.askConsents(onComplete: onComplete)
-```
-
-If you want to get the state of the GDPR consent, call the getConsentState method and provide a consent type:
-
-```swift
-Accurat.shared.getConsentState(.gdpr)
-```
-
-If you want to update the state of the GDPR consent, call the updateConsent method and provide a consent type + state:
-
-```swift
-Accurat.shared.updateConsent(.gdpr, state: 0/1)
-```
-
-Note:
-
-- When you call the `updateConsent()`-method and change the state from 1 to 0, the tracking will be stopped.
-- When you call the `updateConsent()`-method before calling the `startTracking()`-method, the popup to ask the GDPR consent will not be shown as the SDK already knows the GDPR consent state.
 
 ### Receive location updates (optional)
 
@@ -203,17 +245,17 @@ Accurat.shared.onLocationUpdate(callback: ([CLLocation]) -> Void)
 
 ### Notifications (optional)
 
-If you want to receive the local notifications and the extra data you need to subscribe to it in your AppDelegate
+If you want to receive the local notifications and the extra data you need to subscribe to it in your `AppDelegate`
 
 ```swift
 func application(_ application: UIApplication, didReceive notification: UILocalNotification)
 ```
 
-notification.userInfo will contain the extra data that is related to that notification.
+`notification.userInfo` will contain the extra data that is related to that notification.
 
 ### Set language (optional)
 
-If you want to change the language of the user, you can update the language. This language will i.e. be used in the consent popups. When no language is, the device language is used.
+If you want to change the language of the user, you can update the language. This language will i.e. be used in the consent popups and geofence notifications. When no language is, the device language is used, or English if the device language is not supported.
 
 ```swift
 Accurat.shared.setLanguage(.en/.nl/.fr)
@@ -242,3 +284,5 @@ Apple requires that you justify your use of background location. Add something m
 ## Contact
 
 Do you have any questions? E-mail us at steven@accurat.ai.
+
+

@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.7.0 - stable release - 8/02/2020
+
+- You can now configure which consents should be asked by the SDK
+
 ### v1.6.2 - stable release - 19/01/2020
 
 - Bugfixes
