@@ -162,8 +162,8 @@ First, the user is asked for the GDPR consent through a pop-up screen. Second, i
 There is some functionality added to increase the conversion rate (users giving their gdpr and location consent):
 * If the user does not give his consent, the user is asked for the consent again with a delay of at least 48 hours. The consent is asked 3 times at most.
 * Before showing the iOS pop-up which asks the in-app location permission (screen 2b), we explain why the user should give his permission (screen 2a).
-* It is explained to the user that iOS will request his always location permission in the near future, with an explanation why the user should give this permission (screen 2c)
-
+* It is explained to the user that iOS will request his always location permission (screen 2d), with an explanation why the user should give this permission (screen 2c)
+  
 The texts shown in the popup-screens and the number of delays (default 3) can be changed through our backend.
 
 This entire flow can be implemented by adding this code in your `AppDelegate`:
