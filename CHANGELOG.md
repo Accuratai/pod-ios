@@ -1,5 +1,10 @@
 ## Changelog
 
+### v1.7.1 - stable release - 19/06/2020
+
+- New xcode compatibility update
+- Minor improvements
+
 ### v1.7.0 - stable release - 8/02/2020
 
 - You can now configure which consents should be asked by the SDK
