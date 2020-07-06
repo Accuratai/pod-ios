@@ -140,7 +140,7 @@ You can also pass a closure to receive an event when the SDK has finished the co
 Accurat.shared.startTracking(_ onComplete: (() -> Void)?)
 ```
 
-*The `startTracking`-method has to be called on each app start.*
+_The `startTracking`-method has to be called on each app start._
 
 It is recommended to implement this method in your `AppDelegate` after the `initialize`.
 
@@ -154,16 +154,18 @@ Before the SDK starts tracking the users' coordinates, two consents have to be g
 Asking the consents can be implemented by the SDK (recommended) or by the app developer himself.
 
 ##### Implemented by SDK
+
 When `.gdpr` and `.location` features are given during the initialization, a flow which ask these consents is automatically started when the `startTracking`-method is called. The consent flow is visualized in this image:
 ![consentflow](https://accurat.ai/assets/consentflow-ios.png "Consent Flow")
 
 First, the user is asked for the GDPR consent through a pop-up screen. Second, if the user agrees to the GDPR consent, pop-up dialogs are shown to ask his permissions to retrieve his locations. If the user gives GDPR consent and location permissions, the tracking is started.
 
 There is some functionality added to increase the conversion rate (users giving their gdpr and location consent):
-* If the user does not give his consent, the user is asked for the consent again with a delay of at least 48 hours. The consent is asked 3 times at most.
-* Before showing the iOS pop-up which asks the in-app location permission (screen 2b), we explain why the user should give his permission (screen 2a).
-* It is explained to the user that iOS will request his always location permission (screen 2d), with an explanation why the user should give this permission (screen 2c)
-  
+
+- If the user does not give his consent, the user is asked for the consent again with a delay of at least 48 hours. The consent is asked 3 times at most.
+- Before showing the iOS pop-up which asks the in-app location permission (screen 2b), we explain why the user should give his permission (screen 2a).
+- It is explained to the user that iOS will request his always location permission (screen 2d), with an explanation why the user should give this permission (screen 2c)
+
 The texts shown in the popup-screens and the number of delays (default 3) can be changed through our backend.
 
 This entire flow can be implemented by adding this code in your `AppDelegate`:
@@ -184,11 +186,13 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 The consents can also be asked by the app developer in the existing flow of the app. Note that the tracking will only work if the SDK receives an approved gdpr and location consent.
 
 The GDPR consent state can be updated by calling the `updateConsent()`-method and provide a consent type and consent state:
+
 ```swift
 Accurat.shared.updateConsent(.gdpr, state: 0/1)
 ```
 
 If you want to get the state of the GDPR consent, call the `getConsentState()`-method:
+
 ```swift
 Accurat.shared.getConsentState(.gdpr)
 ```
@@ -207,7 +211,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         // Own GDPR consent handling
         let gdprState = askOwnGdprConsent();
         Accurat.shared.updateConsent(.gdpr, gdprState)
-    
+
         // Own location permission handling
         askOwnLocationPermission();
     }
@@ -217,7 +221,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 The consent flow can also partially be implemented by the SDK and partially by the app developer. For instance, by only passing `.location` in the config, the GDPR consent has to be handled by the app developer, but the location permissions will be handled by the SDK.
-
 
 ### Stop Tracking (optional)
 
@@ -277,6 +280,14 @@ Fetch segments the current consumer belongs to. If the consumer does not exist, 
 Accurat.shared.getSegments(onComplete: @escaping (Array<String>) -> Void)
 ```
 
+### Invoke right (optional)
+
+Fetch segments the current consumer belongs to. If the consumer does not exist, an empty list is returned.
+
+```swift
+Accurat.shared.func invokeRight(right: String, info: String?, completion: ((Result<Void, Error>) -> Void)?)
+```
+
 ## Submit to App Store
 
 Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: _This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life._
@@ -284,5 +295,3 @@ Apple requires that you justify your use of background location. Add something m
 ## Contact
 
 Do you have any questions? E-mail us at steven@accurat.ai.
-
-
