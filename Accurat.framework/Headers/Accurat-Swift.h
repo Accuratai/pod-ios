@@ -239,6 +239,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 @interface Accurat (SWIFT_EXTENSION(Accurat))
 - (void)askConsentsOnComplete:(void (^ _Nonnull)(void))onComplete;
 - (void)updateTrackingConsentWithState:(NSInteger)state;
+- (void)updateConsentObjc:(NSString * _Nonnull)type state:(NSInteger)state;
 - (NSInteger)getConsentStateObjc:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -526,6 +527,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 @interface Accurat (SWIFT_EXTENSION(Accurat))
 - (void)askConsentsOnComplete:(void (^ _Nonnull)(void))onComplete;
 - (void)updateTrackingConsentWithState:(NSInteger)state;
+- (void)updateConsentObjc:(NSString * _Nonnull)type state:(NSInteger)state;
 - (NSInteger)getConsentStateObjc:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -813,6 +815,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 @interface Accurat (SWIFT_EXTENSION(Accurat))
 - (void)askConsentsOnComplete:(void (^ _Nonnull)(void))onComplete;
 - (void)updateTrackingConsentWithState:(NSInteger)state;
+- (void)updateConsentObjc:(NSString * _Nonnull)type state:(NSInteger)state;
 - (NSInteger)getConsentStateObjc:(NSString * _Nonnull)type SWIFT_WARN_UNUSED_RESULT;
 @end
 

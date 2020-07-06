@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.7.2 - stable release - 06/07/2020
+
+- Added an `updateConsentObjc` method
+
 ### v1.7.1 - stable release - 19/06/2020
 
 - New xcode compatibility update
