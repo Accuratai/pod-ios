@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.7.3 - stable release - 08/07/2020
+
+- initializer for `AccuratConfig` is now compatible with objective-c
+
 ### v1.7.2 - stable release - 06/07/2020
 
 - Added an `updateConsentObjc` method

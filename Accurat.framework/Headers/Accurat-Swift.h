@@ -246,9 +246,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 
 SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
 @interface AccuratConfig : NSObject
+- (nonnull instancetype)initWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password features:(NSArray<NSNumber *> * _Nullable)features OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, Feature, closed) {
+  FeatureGdpr = 0,
+  FeatureLocation = 1,
+};
 
 
 
@@ -534,9 +540,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 
 SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
 @interface AccuratConfig : NSObject
+- (nonnull instancetype)initWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password features:(NSArray<NSNumber *> * _Nullable)features OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, Feature, closed) {
+  FeatureGdpr = 0,
+  FeatureLocation = 1,
+};
 
 
 
@@ -822,9 +834,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 
 SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
 @interface AccuratConfig : NSObject
+- (nonnull instancetype)initWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password features:(NSArray<NSNumber *> * _Nullable)features OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, Feature, closed) {
+  FeatureGdpr = 0,
+  FeatureLocation = 1,
+};
 
 
 

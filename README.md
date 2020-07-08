@@ -282,10 +282,10 @@ Accurat.shared.getSegments(onComplete: @escaping (Array<String>) -> Void)
 
 ### Invoke right (optional)
 
-Fetch segments the current consumer belongs to. If the consumer does not exist, an empty list is returned.
+This can be used to inform us if a user invokes a GDPR right of data subject.
 
 ```swift
-Accurat.shared.func invokeRight(right: String, info: String?, completion: ((Result<Void, Error>) -> Void)?)
+Accurat.shared.invokeRight(right: String, info: String?, completion: ((Result<Void, Error>) -> Void)?)
 ```
 
 ## Submit to App Store
