@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.7.4 - stable release - 13/07/2020
+
+- removed the `i386` and `X86_64` architectures from the release framework
+
 ### v1.7.3 - stable release - 08/07/2020
 
 - initializer for `AccuratConfig` is now compatible with objective-c
