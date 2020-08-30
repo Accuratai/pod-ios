@@ -1,12 +1,18 @@
 ## Changelog
 
+### v1.8.0 - stable release - 13/07/2020
+
+- Support for iOS 14
+- Vendorid is used in iOS 14
+- Added the `i386` and `X86_64` architectures again to the release framework
+
 ### v1.7.4 - stable release - 13/07/2020
 
-- removed the `i386` and `X86_64` architectures from the release framework
+- Removed the `i386` and `X86_64` architectures from the release framework
 
 ### v1.7.3 - stable release - 08/07/2020
 
-- initializer for `AccuratConfig` is now compatible with objective-c
+- Initializer for `AccuratConfig` is now compatible with objective-c
 
 ### v1.7.2 - stable release - 06/07/2020
 

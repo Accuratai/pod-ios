@@ -288,6 +288,24 @@ This can be used to inform us if a user invokes a GDPR right of data subject.
 Accurat.shared.invokeRight(right: String, info: String?, completion: ((Result<Void, Error>) -> Void)?)
 ```
 
+### Set Meta (optional)
+
+This can be meta-data of the user to the server. Note: should be called after `startTracking`
+
+```swift
+Accurat.shared.setMeta(key: String, value: String?, completion: ((Result<Void, Error>) -> Void)?)
+```
+
+Example: 
+```swift
+Accurat.shared.startTracking() {
+    Accurat.shared.setMeta(key: String, value: String?) { result in
+
+    }
+}
+```
+
+
 ## Submit to App Store
 
 Apple requires that you justify your use of background location. Add something materially similar to the following to the bottom of your App Store description: _This app uses background location to personalize the experience of its users. Continued use of background location may decrease battery life._
