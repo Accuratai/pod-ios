@@ -290,7 +290,7 @@ Accurat.shared.invokeRight(right: String, info: String?, completion: ((Result<Vo
 
 ### Set Meta (optional)
 
-This can be meta-data of the user to the server. Note: should be called after `startTracking`
+This can be used to send meta-data of the user to the server. Note: should be called after `startTracking`
 
 ```swift
 Accurat.shared.setMeta(key: String, value: String?, completion: ((Result<Void, Error>) -> Void)?)
