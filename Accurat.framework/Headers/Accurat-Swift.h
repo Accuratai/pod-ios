@@ -252,14 +252,14 @@ SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, Feature, open) {
+typedef SWIFT_ENUM(NSInteger, Feature, closed) {
   FeatureGdpr = 0,
   FeatureLocation = 1,
 };
 
 
 
-typedef SWIFT_ENUM(NSInteger, LanguageOption, open) {
+typedef SWIFT_ENUM(NSInteger, LanguageOption, closed) {
   LanguageOptionNl = 0,
   LanguageOptionFr = 1,
   LanguageOptionEn = 2,
@@ -535,14 +535,14 @@ SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, Feature, open) {
+typedef SWIFT_ENUM(NSInteger, Feature, closed) {
   FeatureGdpr = 0,
   FeatureLocation = 1,
 };
 
 
 
-typedef SWIFT_ENUM(NSInteger, LanguageOption, open) {
+typedef SWIFT_ENUM(NSInteger, LanguageOption, closed) {
   LanguageOptionNl = 0,
   LanguageOptionFr = 1,
   LanguageOptionEn = 2,
@@ -818,14 +818,14 @@ SWIFT_CLASS("_TtC7Accurat13AccuratConfig")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, Feature, open) {
+typedef SWIFT_ENUM(NSInteger, Feature, closed) {
   FeatureGdpr = 0,
   FeatureLocation = 1,
 };
 
 
 
-typedef SWIFT_ENUM(NSInteger, LanguageOption, open) {
+typedef SWIFT_ENUM(NSInteger, LanguageOption, closed) {
   LanguageOptionNl = 0,
   LanguageOptionFr = 1,
   LanguageOptionEn = 2,
