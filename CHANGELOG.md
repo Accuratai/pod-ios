@@ -1,9 +1,5 @@
 ## Changelog
 
-### v1.8.1 - stable release - 01/09/2020
-
-- Enabled the `Build libraries for Distribution`
-
 ### v1.8.0 - stable release - 25/08/2020
 
 - Support for iOS 14
