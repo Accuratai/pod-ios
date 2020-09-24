@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.9 - stable release - 24/09/2020
+
+- added `getMeta`
+
 ### v1.8.0 - stable release - 25/08/2020
 
 - Support for iOS 14

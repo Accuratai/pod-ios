@@ -175,7 +175,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     let config = AccuratConfig(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", features: [.gdpr, .location])
     Accurat.shared.initialize(config: config)
     // start tracking (which will also starts the consent flow)
-    Accurat.shared.startTracking() {
+    Accurat.shared.startTracking {
         //consent flow is finished, eg. ask permission to send push notifications
     }
 }
@@ -288,23 +288,39 @@ This can be used to inform us if a user invokes a GDPR right of data subject.
 Accurat.shared.invokeRight(right: String, info: String?, completion: ((Result<Void, Error>) -> Void)?)
 ```
 
-### Set Meta (optional)
+### Get meta data (optional)
 
-This can be used to send meta-data of the user to the server. Note: should be called after `startTracking`
+Fetch a consumer's meta data. If the consumer doesn't exist or hasn't allowed tracking, an empty list is returned.
 
 ```swift
-Accurat.shared.setMeta(key: String, value: String?, completion: ((Result<Void, Error>) -> Void)?)
+Accurat.shared.getMeta(completion: ([String: String]) -> Void)
 ```
 
-Example: 
 ```swift
-Accurat.shared.startTracking() {
-    Accurat.shared.setMeta(key: String, value: String?) { result in
+Accurat.shared.startTracking {
+    Accurat.shared.getMeta { metaResult in
 
     }
 }
 ```
 
+### Set meta data (optional)
+
+Add or update a consumer's meta data. If the consumer doesn't exist or hasn't allowed tracking, no change in meta data will be persisted. Note: should be called after `startTracking`
+
+```swift
+Accurat.shared.setMeta(key: String, value: String?, completion: ((Result<Void, Error>) -> Void)?)
+```
+
+Example:
+
+```swift
+Accurat.shared.startTracking {
+    Accurat.shared.setMeta(key: String, value: String?) { result in
+
+    }
+}
+```
 
 ## Submit to App Store
 
