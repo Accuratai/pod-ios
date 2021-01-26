@@ -118,7 +118,9 @@ Accurat.shared.initialize(config: config)
 
 where `ACCURAT_USERNAME` and `ACCURAT_PASSWORD` are strings containing your Accurat username and password. `features` is an optional parameter which indicates the consents which are asked by the SDK (see Consent Flow section).
 
-Additionally, implement the following method in your `AppDelegate`:
+### Fetch location in the background (required)
+
+Implement the following method in your `AppDelegate`:
 
 ```swift
 func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
