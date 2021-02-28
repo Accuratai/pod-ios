@@ -1,0 +1,260 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 effective-4.1.50 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AccuratSDK
+@_exported import AccuratSDK
+import AdSupport
+import CoreLocation.CLLocation
+import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
+import CoreLocation
+import CoreTelephony
+import Foundation
+import SQLite3
+import Swift
+import SystemConfiguration
+import UIKit.UIDevice
+import UIKit
+import UserNotifications
+public enum HashOutputType {
+  case hex
+  case base64
+  public static func == (a: AccuratSDK.HashOutputType, b: AccuratSDK.HashOutputType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum HashType {
+  case md5
+  case sha1
+  case sha224
+  case sha256
+  case sha384
+  case sha512
+  public static func == (a: AccuratSDK.HashType, b: AccuratSDK.HashType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+extension String {
+  public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
+}
+extension String {
+  public func base64Encoded() -> Swift.String?
+  public func base64Decoded() -> Swift.String?
+}
+public struct AccuratLocateLocation {
+  public enum Context : Swift.String {
+    case unknown
+    case active
+    case regular
+    case visitEntry
+    case visitExit
+    case visitTrigger
+    case geofenceEntry
+    case geofenceExit
+    case extraGeofenceExit
+    case backgroundFetch
+    case significantLocationChange
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension AccuratLocateLocation {
+  public var json: AccuratSDK.HttpParameters {
+    get
+  }
+}
+extension AccuratLocateLocation : Swift.Equatable {
+  public static func == (lhs: AccuratSDK.AccuratLocateLocation, rhs: AccuratSDK.AccuratLocateLocation) -> Swift.Bool
+}
+@objc public enum LanguageOption : Swift.Int, Swift.Codable {
+  case nl
+  case fr
+  case en
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AccuratGeofenceRange {
+  public let latitudeRange: CoreLocation.CLLocationDegrees
+  public let longitudeRange: CoreLocation.CLLocationDegrees
+}
+public struct AccuratGeofence : Swift.Decodable {
+  public let id: Swift.String
+  public let nids: Swift.String
+  public let latitude: CoreLocation.CLLocationDegrees
+  public let longitude: CoreLocation.CLLocationDegrees
+  public let radius: CoreLocation.CLLocationDistance
+  public var region: CoreLocation.CLRegion {
+    get
+  }
+  public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance)
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum ConsentType : Swift.String, Swift.Codable {
+  case unknown
+  case gdprConsent
+  case locationPermission
+  case alwaysLocationPermission
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ReachabilityError : Swift.Error {
+  case FailedToCreateWithAddress(Darwin.sockaddr_in)
+  case FailedToCreateWithHostname(Swift.String)
+  case UnableToSetCallback
+  case UnableToSetDispatchQueue
+  case UnableToGetInitialFlags
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+extension NSNotification.Name {
+  public static let reachabilityChanged: Foundation.Notification.Name
+}
+public class Reachability {
+  public typealias NetworkReachable = (AccuratSDK.Reachability) -> ()
+  public typealias NetworkUnreachable = (AccuratSDK.Reachability) -> ()
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: AccuratSDK.Reachability.NetworkStatus, b: AccuratSDK.Reachability.NetworkStatus) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    case none, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: AccuratSDK.Reachability.Connection, b: AccuratSDK.Reachability.Connection) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public var whenReachable: AccuratSDK.Reachability.NetworkReachable?
+  public var whenUnreachable: AccuratSDK.Reachability.NetworkUnreachable?
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: AccuratSDK.Reachability.Connection {
+    get
+  }
+  public var connection: AccuratSDK.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  convenience public init?(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  convenience public init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  @objc deinit
+}
+extension Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  public var isReachable: Swift.Bool {
+    get
+  }
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias HttpParameters = Any
+@_inheritsConvenienceInitializers @objc public class Accurat : ObjectiveC.NSObject {
+  @objc public static var shared: AccuratSDK.Accurat
+  @objc public var isTrackingEnabled: Swift.Bool {
+    @objc get
+  }
+  @objc public func initialize(username: Swift.String, password: Swift.String)
+  @objc public func initialize(config: AccuratSDK.AccuratConfig)
+  @objc public func setLanguage(_ language: AccuratSDK.LanguageOption)
+  @objc public func startTracking(_ onComplete: (() -> Swift.Void)? = nil)
+  @objc public func stopTracking()
+  @objc public func getCurrentLocationAsJSON(completion: (Swift.String?, Swift.Error?) -> Swift.Void) throws
+  @objc public func performBackgroundFetchWithCompletionHandler(_ completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
+  public func getCurrentLocation(completion: (AccuratSDK.AccuratLocateLocation?, Swift.Error?) -> Swift.Void) throws
+  @objc public func interact(_ group: Swift.String, campaign: Swift.String, touchpoint: Swift.String, onComplete: ((Swift.Bool) -> Swift.Void)?)
+  @objc public func getSegments(onComplete: @escaping (Swift.Array<Swift.String>) -> Swift.Void)
+  public func invokeRight(right: Swift.String, info: Swift.String?, completion: ((Swift.Result<Swift.Void, Swift.Error>) -> Swift.Void)? = nil)
+  public func setMeta(key: Swift.String, value: Swift.String, completion: ((Swift.Result<Swift.Void, Swift.Error>) -> Swift.Void)?)
+  public func getMeta(completion: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Accurat {
+  @objc dynamic public func askConsents(onComplete: @escaping () -> Swift.Void)
+  @objc dynamic public func updateTrackingConsent(state: Swift.Int)
+  public func updateConsent(_ type: AccuratSDK.ConsentType, state: Swift.Int)
+  @objc dynamic public func updateConsentObjc(_ type: Swift.String, state: Swift.Int)
+  public func getConsentState(_ type: AccuratSDK.ConsentType = .gdprConsent) -> Swift.Int?
+  @objc dynamic public func getConsentStateObjc(_ type: Swift.String) -> Swift.Int
+}
+extension Accurat {
+  @objc dynamic public func onLocationUpdate(callback: @escaping ([CoreLocation.CLLocation]) -> Swift.Void)
+}
+extension Data {
+  public func hashWithRSA2048Asn1Header(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
+  public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
+}
+@objc public enum Feature : Swift.Int {
+  case gdpr
+  case location
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class AccuratConfig : ObjectiveC.NSObject {
+  public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location])
+  @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1])
+  @objc deinit
+  @objc override dynamic public init()
+}
+public typealias LocationsHandler = ([(location: CoreLocation.CLLocation, context: AccuratSDK.AccuratLocateLocation.Context)]) -> Swift.Void
+extension AccuratSDK.HashOutputType : Swift.Equatable {}
+extension AccuratSDK.HashOutputType : Swift.Hashable {}
+extension AccuratSDK.HashType : Swift.Equatable {}
+extension AccuratSDK.HashType : Swift.Hashable {}
+extension AccuratSDK.AccuratLocateLocation.Context : Swift.Equatable {}
+extension AccuratSDK.AccuratLocateLocation.Context : Swift.Hashable {}
+extension AccuratSDK.AccuratLocateLocation.Context : Swift.RawRepresentable {}
+extension AccuratSDK.LanguageOption : Swift.Equatable {}
+extension AccuratSDK.LanguageOption : Swift.Hashable {}
+extension AccuratSDK.LanguageOption : Swift.RawRepresentable {}
+extension AccuratSDK.ConsentType : Swift.Equatable {}
+extension AccuratSDK.ConsentType : Swift.Hashable {}
+extension AccuratSDK.ConsentType : Swift.RawRepresentable {}
+@available(*, unavailable, renamed: "Connection")
+extension AccuratSDK.Reachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension AccuratSDK.Reachability.NetworkStatus : Swift.Hashable {}
+extension AccuratSDK.Reachability.Connection : Swift.Equatable {}
+extension AccuratSDK.Reachability.Connection : Swift.Hashable {}
+extension AccuratSDK.Feature : Swift.Equatable {}
+extension AccuratSDK.Feature : Swift.Hashable {}
+extension AccuratSDK.Feature : Swift.RawRepresentable {}
