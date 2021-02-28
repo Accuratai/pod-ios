@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://gitlab.com/accuratai/pod-ios", :tag => s.version }
   s.ios.vendored_frameworks = 'Accurat.xcframework'
-  s.cocoapods_version = '>= 1.10.0'`
+  s.cocoapods_version = '>= 1.10.0'
 end
