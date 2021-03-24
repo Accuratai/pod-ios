@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Accurat"
-  s.version      = "1.9.0"
+  s.version      = "1.9.1"
   s.homepage     = "https://accurat.ai/"
   s.summary      = "The Accurat iOS SDK puts location intelligence at your fingertips."
   s.author                = { 'Accurat' => 'sdk@accurat.ai' }
@@ -18,5 +18,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://gitlab.com/accuratai/pod-ios", :tag => s.version }
   s.ios.vendored_frameworks = 'Accurat.framework'
+  s.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
