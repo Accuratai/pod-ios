@@ -1,4 +1,8 @@
 ## Changelog
+
+### v1.9.2 - stable release - 04/05/2021
+
+- Support for 5.4 Swift binary
 ### v1.9.1 - stable release - 24/09/2020
 
 - Support for 5.3.1 Swift binary
