@@ -8,15 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name         = "Accurat"
-  s.version      = "1.9.0"
-  s.homepage     = "https://accurat.ai/"
+  s.version      = "2.0.0"
+  s.homepage     = "https://gitlab.com/accuratai/pod-ios/"
   s.summary      = "The Accurat iOS SDK puts location intelligence at your fingertips."
   s.author                = { 'Accurat' => 'sdk@accurat.ai' }
   s.license               = { :type => 'Copyright',
-                                :text => 'Copyright (c) 2020 Accurat BV. All rights reserved.'}
-  s.ios.deployment_target = "9.0"
+                                :text => 'Copyright (c) 2021 Accurat BV. All rights reserved.'}
+  s.ios.deployment_target = "10.0"
 
   s.source       = { :git => "https://gitlab.com/accuratai/pod-ios", :tag => s.version }
   s.ios.vendored_frameworks = 'AccuratSDK.xcframework'
-  s.cocoapods_version = '>= 1.10.0'
+
 end
+
+

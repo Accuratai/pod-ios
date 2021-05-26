@@ -15,12 +15,12 @@ You can find the instruction to integrate the Accurat SDK into your iOS app belo
 ## Requirements
 
 - iOS 9.0+
-- Xcode 8.3+
+- Xcode 11.0+
 
-## Compatibility
+## Upgrading from 1.x.x to 2.x.x
 
-- Swift 4+
-- Objective-c
+When upgrading from from 1.x.x to 2.x.x, you need to change the import statements from `import Accurat` to `import AccuratSDK`.
+Everything else should work as usual.
 
 ## Configure project
 
