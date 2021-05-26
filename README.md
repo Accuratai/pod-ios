@@ -15,12 +15,12 @@ You can find the instruction to integrate the Accurat SDK into your iOS app belo
 ## Requirements
 
 - iOS 9.0+
-- Xcode 8.3+
+- Xcode 11.0+
 
-## Compatibility
+## Upgrading from 1.x.x to 2.x.x
 
-- Swift 4+
-- Objective-c
+When upgrading from from 1.x.x to 2.x.x, you need to change the import statements from `import Accurat` to `import AccuratSDK`.
+Everything else should work as usual.
 
 ## Configure project
 
@@ -97,12 +97,20 @@ Then, run the following command:
 $ pod install
 ```
 
+### Swift Package Manager
+
+To integrate Accurat into your Xcode project using the Swift Package Manager do the following in XCode:
+- Go to `File > Swift Packages > Add Package Dependency`.
+- Select the correct project
+- Enter the following URL `https://gitlab.com/accuratai/pod-ios`
+- Select `Version` and leave it as is
+- Click `Next` and the package should be added to you project
 ## Integrate SDK into app
 
 ### Import the SDK (required)
 
 ```swift
-import Accurat
+import AccuratSDK
 ```
 
 ### Initialize SDK (required)
@@ -118,7 +126,9 @@ Accurat.shared.initialize(config: config)
 
 where `ACCURAT_USERNAME` and `ACCURAT_PASSWORD` are strings containing your Accurat username and password. `features` is an optional parameter which indicates the consents which are asked by the SDK (see Consent Flow section).
 
-Additionally, implement the following method in your `AppDelegate`:
+### Fetch location in the background (required)
+
+Implement the following method in your `AppDelegate`:
 
 ```swift
 func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {

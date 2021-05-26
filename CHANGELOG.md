@@ -1,8 +1,14 @@
 ## Changelog
+### v2.0.0 - stable release - 04/05/2021
+
+- Added support for Swift Package Manager
+- Moved to an XCFramework
+- Support for `BUILD_LIBRARY_FOR_DISTRIBUTION`
 
 ### v1.9.2 - stable release - 04/05/2021
 
-- Support for 5.4 Swift binary
+- Support for 5.4.0 Swift binary
+
 ### v1.9.1 - stable release - 24/09/2020
 
 - Support for 5.3.1 Swift binary
