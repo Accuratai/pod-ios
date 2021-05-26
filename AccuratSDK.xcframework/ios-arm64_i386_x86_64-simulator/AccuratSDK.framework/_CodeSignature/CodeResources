@@ -6,7 +6,7 @@
 	<dict>
 		<key>AlertViewController.storyboardc/A3s-ns-zP4-view-mjS-Zs-HlN.nib</key>
 		<data>
-		MIXhgVEPt61jfih0c7sZkgtIeTY=
+		khpod1ufRPFWzb58YD8LdJ4NjXU=
 		</data>
 		<key>AlertViewController.storyboardc/Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>AlertViewController.storyboardc/UIViewController-A3s-ns-zP4.nib</key>
 		<data>
-		2VA5RifKAaq3TEs8J8vHc0SlJc4=
+		qw5w/5vruU3/pgFPRT6uHlNrAmU=
 		</data>
 		<key>Headers/AccuratSDK-Swift.h</key>
 		<data>
-		6ANZZwUOD0PxrZQst03YFG6Rigg=
+		SvHR5ONp5XwWOg9uSH19KYLOa70=
 		</data>
 		<key>Headers/AccuratSDK.h</key>
 		<data>
@@ -26,79 +26,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/exMrTYOA9uQ2FMwUzpT25EqmI4=
+		un5fHRbk2MRIJFZ+GAeOMuQwG3g=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		H/J+XgWinVbKOaZv6TIYM3JBPXE=
+		qZ9AUduJJZxTXcEgBbwnXCHRyEk=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Iyrq4QoN0apr9saOZ28q1mYvVZc=
+		CVjKlEa42cZ/2K8cQIuATVwh+y4=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jGSkLN7w1QkLftkkuSB8dR5PcNc=
+		x0jmo7xQJ87LVnKVfHikzHii45M=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		H/J+XgWinVbKOaZv6TIYM3JBPXE=
+		qZ9AUduJJZxTXcEgBbwnXCHRyEk=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		Iyrq4QoN0apr9saOZ28q1mYvVZc=
+		CVjKlEa42cZ/2K8cQIuATVwh+y4=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jGSkLN7w1QkLftkkuSB8dR5PcNc=
+		x0jmo7xQJ87LVnKVfHikzHii45M=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cK0x4KWHFPKURVV2uEcUKsCpQz4=
+		mAra1pvnt3zU621zWfepcAR4H9g=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YLlmJD4wbSySUA8319OXYxuAVws=
+		D3h98aP3Urh5neS2A2jSo8PYP24=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Egk1w00JJumkQrQn1M37gRI7J7c=
+		FbHWVk9WU5U4CZN9ikZvqOefZEc=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		cK0x4KWHFPKURVV2uEcUKsCpQz4=
+		mAra1pvnt3zU621zWfepcAR4H9g=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		YLlmJD4wbSySUA8319OXYxuAVws=
+		D3h98aP3Urh5neS2A2jSo8PYP24=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Egk1w00JJumkQrQn1M37gRI7J7c=
+		FbHWVk9WU5U4CZN9ikZvqOefZEc=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ngA+nsIMewVRWMiwOyIastg1AJ8=
+		HWTNcIvGS3zS7czubSeVaICdSfY=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ddvqKb82X9J3s11q8ZRod8QanBc=
+		jnpXh8pqd4HkQnEB0Rq9+f6AXAI=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QV6Rks5gpzuvrfBb8TEiL86GMjY=
+		mF46xmY+TZFmCoHkTZoOy/P2YuE=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		ngA+nsIMewVRWMiwOyIastg1AJ8=
+		HWTNcIvGS3zS7czubSeVaICdSfY=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ddvqKb82X9J3s11q8ZRod8QanBc=
+		jnpXh8pqd4HkQnEB0Rq9+f6AXAI=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		QV6Rks5gpzuvrfBb8TEiL86GMjY=
+		mF46xmY+TZFmCoHkTZoOy/P2YuE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MIXhgVEPt61jfih0c7sZkgtIeTY=
+			khpod1ufRPFWzb58YD8LdJ4NjXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ps2Or+q7nOMODzMh0U56oSs7Gf4rgDA0LAQAN1OAn/o=
+			XFsKKF62bQkEi+YUF1uPIAki+++sKRTCJxRHBzgFMYU=
 			</data>
 		</dict>
 		<key>AlertViewController.storyboardc/Info.plist</key>
@@ -133,22 +133,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2VA5RifKAaq3TEs8J8vHc0SlJc4=
+			qw5w/5vruU3/pgFPRT6uHlNrAmU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mdXUQDYUXuVyTifaICNfaSkuWZy0niA7NvzcBqe+XRE=
+			REUaTlU70n5+NddmMjR0grGjO50FkTlnv8fryTvzTcE=
 			</data>
 		</dict>
 		<key>Headers/AccuratSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ANZZwUOD0PxrZQst03YFG6Rigg=
+			SvHR5ONp5XwWOg9uSH19KYLOa70=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ux6UQpF0s2U53GB6Akf/BKjatYy7YKtjE6BHZh7R6iE=
+			YPOOdKniLc+X5Jf9Srah5IbloF9E9B/QwZoTZPaggwc=
 			</data>
 		</dict>
 		<key>Headers/AccuratSDK.h</key>
@@ -166,198 +166,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H/J+XgWinVbKOaZv6TIYM3JBPXE=
+			qZ9AUduJJZxTXcEgBbwnXCHRyEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2GLYnyA3xCSNNYi+shEgM9oazWbfqdAVREqJXu/S+dw=
+			pTTFuQKd9QaQ3xShgYvwQouAqoD2x51huOJI80u7Sbc=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iyrq4QoN0apr9saOZ28q1mYvVZc=
+			CVjKlEa42cZ/2K8cQIuATVwh+y4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9iOk77npVIp5NAXGxbIim0r646OqsMstwR8TN1Yl+jQ=
+			x7q4ySyR9W3FUW8L4QM0bsrQGtuksLF+2XT5aeLt13g=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jGSkLN7w1QkLftkkuSB8dR5PcNc=
+			x0jmo7xQJ87LVnKVfHikzHii45M=
 			</data>
 			<key>hash2</key>
 			<data>
-			KXq4thjuQjV+VkTdjqu6I+wDK16+41pCkWu82e1evAA=
+			X2VQU/n6/QDgzTMxRYMXgoSlrq1CkmeYwXlz4P49Pv0=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H/J+XgWinVbKOaZv6TIYM3JBPXE=
+			qZ9AUduJJZxTXcEgBbwnXCHRyEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			2GLYnyA3xCSNNYi+shEgM9oazWbfqdAVREqJXu/S+dw=
+			pTTFuQKd9QaQ3xShgYvwQouAqoD2x51huOJI80u7Sbc=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Iyrq4QoN0apr9saOZ28q1mYvVZc=
+			CVjKlEa42cZ/2K8cQIuATVwh+y4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9iOk77npVIp5NAXGxbIim0r646OqsMstwR8TN1Yl+jQ=
+			x7q4ySyR9W3FUW8L4QM0bsrQGtuksLF+2XT5aeLt13g=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jGSkLN7w1QkLftkkuSB8dR5PcNc=
+			x0jmo7xQJ87LVnKVfHikzHii45M=
 			</data>
 			<key>hash2</key>
 			<data>
-			KXq4thjuQjV+VkTdjqu6I+wDK16+41pCkWu82e1evAA=
+			X2VQU/n6/QDgzTMxRYMXgoSlrq1CkmeYwXlz4P49Pv0=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cK0x4KWHFPKURVV2uEcUKsCpQz4=
+			mAra1pvnt3zU621zWfepcAR4H9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			FiPX1dnu7zCDzHzx6NOcFpLfeLBjTIDGk8CtXVreeyY=
+			uNmW3tpkh+LR+gYMnZ65RjcTxROZSpZm3d9kxSIQ26E=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YLlmJD4wbSySUA8319OXYxuAVws=
+			D3h98aP3Urh5neS2A2jSo8PYP24=
 			</data>
 			<key>hash2</key>
 			<data>
-			WS9e78/wz6BBPzV45jNufkBp5gQjpuYjHmzdtWm1GoU=
+			aIw3/v0LjxjiKQ3QK4b4U6nqfdg0RplcYsvdK5ZvvTM=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Egk1w00JJumkQrQn1M37gRI7J7c=
+			FbHWVk9WU5U4CZN9ikZvqOefZEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yC+lc7rg8FhlgR2Sy1VkLR6ighj9590efxHkkfj1K/E=
+			xNInuaNo/r3qbtL+5LHzEClbn+BS599GPDnxsiaGiG4=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cK0x4KWHFPKURVV2uEcUKsCpQz4=
+			mAra1pvnt3zU621zWfepcAR4H9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			FiPX1dnu7zCDzHzx6NOcFpLfeLBjTIDGk8CtXVreeyY=
+			uNmW3tpkh+LR+gYMnZ65RjcTxROZSpZm3d9kxSIQ26E=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YLlmJD4wbSySUA8319OXYxuAVws=
+			D3h98aP3Urh5neS2A2jSo8PYP24=
 			</data>
 			<key>hash2</key>
 			<data>
-			WS9e78/wz6BBPzV45jNufkBp5gQjpuYjHmzdtWm1GoU=
+			aIw3/v0LjxjiKQ3QK4b4U6nqfdg0RplcYsvdK5ZvvTM=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Egk1w00JJumkQrQn1M37gRI7J7c=
+			FbHWVk9WU5U4CZN9ikZvqOefZEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yC+lc7rg8FhlgR2Sy1VkLR6ighj9590efxHkkfj1K/E=
+			xNInuaNo/r3qbtL+5LHzEClbn+BS599GPDnxsiaGiG4=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ngA+nsIMewVRWMiwOyIastg1AJ8=
+			HWTNcIvGS3zS7czubSeVaICdSfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wG1Au3itucS3C7olIvz4NdBkU0CcGWuwwxlDt44jnkg=
+			ecafbrzau3guNiCbuH4YE5SckgyjJkAP3Qfr9nV9etI=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ddvqKb82X9J3s11q8ZRod8QanBc=
+			jnpXh8pqd4HkQnEB0Rq9+f6AXAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/O8eQMMg+NBGiWEfKcv3LJZ8m3Dw/BSwtMG27+mK9yo=
+			eAyJ0fg7CHIeh5T3/ulmtXaMLKax+rrJTpJ9gYg8yxE=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QV6Rks5gpzuvrfBb8TEiL86GMjY=
+			mF46xmY+TZFmCoHkTZoOy/P2YuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			YKUJ6JknALxhWGci8oe/xTEijjellbf+FXfQLOaMKY8=
+			UAt6uO52maTx7SxVxM7CL0w7HcUlwGDrgN8QZt1RHcU=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ngA+nsIMewVRWMiwOyIastg1AJ8=
+			HWTNcIvGS3zS7czubSeVaICdSfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wG1Au3itucS3C7olIvz4NdBkU0CcGWuwwxlDt44jnkg=
+			ecafbrzau3guNiCbuH4YE5SckgyjJkAP3Qfr9nV9etI=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ddvqKb82X9J3s11q8ZRod8QanBc=
+			jnpXh8pqd4HkQnEB0Rq9+f6AXAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/O8eQMMg+NBGiWEfKcv3LJZ8m3Dw/BSwtMG27+mK9yo=
+			eAyJ0fg7CHIeh5T3/ulmtXaMLKax+rrJTpJ9gYg8yxE=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QV6Rks5gpzuvrfBb8TEiL86GMjY=
+			mF46xmY+TZFmCoHkTZoOy/P2YuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			YKUJ6JknALxhWGci8oe/xTEijjellbf+FXfQLOaMKY8=
+			UAt6uO52maTx7SxVxM7CL0w7HcUlwGDrgN8QZt1RHcU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

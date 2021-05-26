@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 effective-4.1.50 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 effective-4.1.50 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AccuratSDK
 @_exported import AccuratSDK
 import AdSupport
@@ -19,10 +19,10 @@ public enum HashOutputType {
   case hex
   case base64
   public static func == (a: AccuratSDK.HashOutputType, b: AccuratSDK.HashOutputType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum HashType {
   case md5
@@ -32,10 +32,10 @@ public enum HashType {
   case sha384
   case sha512
   public static func == (a: AccuratSDK.HashType, b: AccuratSDK.HashType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 extension String {
   public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
@@ -57,8 +57,8 @@ public struct AccuratLocateLocation {
     case extraGeofenceExit
     case backgroundFetch
     case significantLocationChange
-    public typealias RawValue = Swift.String
     public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
     }
@@ -76,8 +76,8 @@ extension AccuratLocateLocation : Swift.Equatable {
   case nl
   case fr
   case en
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -103,8 +103,8 @@ public enum ConsentType : Swift.String, Swift.Codable {
   case gdprConsent
   case locationPermission
   case alwaysLocationPermission
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -125,16 +125,16 @@ public class Reachability {
   public typealias NetworkReachable = (AccuratSDK.Reachability) -> ()
   public typealias NetworkUnreachable = (AccuratSDK.Reachability) -> ()
   @available(*, unavailable, renamed: "Connection")
-  public enum NetworkStatus : Swift.CustomStringConvertible {
+  public enum NetworkStatus : Swift.CustomStringConvertible, Swift.Hashable {
     case notReachable, reachableViaWiFi, reachableViaWWAN
     public var description: Swift.String {
       get
     }
     public static func == (a: AccuratSDK.Reachability.NetworkStatus, b: AccuratSDK.Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public enum Connection : Swift.CustomStringConvertible {
     case none, wifi, cellular
@@ -142,10 +142,10 @@ public class Reachability {
       get
     }
     public static func == (a: AccuratSDK.Reachability.Connection, b: AccuratSDK.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
-    public func hash(into hasher: inout Swift.Hasher)
   }
   public var whenReachable: AccuratSDK.Reachability.NetworkReachable?
   public var whenUnreachable: AccuratSDK.Reachability.NetworkUnreachable?
@@ -223,8 +223,8 @@ extension Data {
 @objc public enum Feature : Swift.Int {
   case gdpr
   case location
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -232,8 +232,8 @@ extension Data {
 @objc public class AccuratConfig : ObjectiveC.NSObject {
   public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location])
   @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1])
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 public typealias LocationsHandler = ([(location: CoreLocation.CLLocation, context: AccuratSDK.AccuratLocateLocation.Context)]) -> Swift.Void
 extension AccuratSDK.HashOutputType : Swift.Equatable {}
@@ -249,10 +249,6 @@ extension AccuratSDK.LanguageOption : Swift.RawRepresentable {}
 extension AccuratSDK.ConsentType : Swift.Equatable {}
 extension AccuratSDK.ConsentType : Swift.Hashable {}
 extension AccuratSDK.ConsentType : Swift.RawRepresentable {}
-@available(*, unavailable, renamed: "Connection")
-extension AccuratSDK.Reachability.NetworkStatus : Swift.Equatable {}
-@available(*, unavailable, renamed: "Connection")
-extension AccuratSDK.Reachability.NetworkStatus : Swift.Hashable {}
 extension AccuratSDK.Reachability.Connection : Swift.Equatable {}
 extension AccuratSDK.Reachability.Connection : Swift.Hashable {}
 extension AccuratSDK.Feature : Swift.Equatable {}
