@@ -1,4 +1,9 @@
 ## Changelog
+
+### v2.0.1 - stable release - 22/06/2021
+
+- Minor improvements 
+
 ### v2.0.0 - stable release - 04/05/2021
 
 - Added support for Swift Package Manager
