@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.0.2 - stable release - 07/10/2021
+
+- Minor improvements 
+
 ### v2.0.1 - stable release - 22/06/2021
 
 - Minor improvements 

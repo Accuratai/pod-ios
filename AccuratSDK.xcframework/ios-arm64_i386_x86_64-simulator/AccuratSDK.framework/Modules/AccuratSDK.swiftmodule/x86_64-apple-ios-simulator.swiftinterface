@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 effective-4.1.50 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5 effective-4.1.50 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AccuratSDK
 @_exported import AccuratSDK
 import AdSupport
@@ -15,6 +15,7 @@ import SystemConfiguration
 import UIKit.UIDevice
 import UIKit
 import UserNotifications
+import _Concurrency
 public enum HashOutputType {
   case hex
   case base64
@@ -37,10 +38,10 @@ public enum HashType {
     get
   }
 }
-extension String {
+extension Swift.String {
   public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
 }
-extension String {
+extension Swift.String {
   public func base64Encoded() -> Swift.String?
   public func base64Decoded() -> Swift.String?
 }
@@ -64,12 +65,12 @@ public struct AccuratLocateLocation {
     }
   }
 }
-extension AccuratLocateLocation {
+extension AccuratSDK.AccuratLocateLocation {
   public var json: AccuratSDK.HttpParameters {
     get
   }
 }
-extension AccuratLocateLocation : Swift.Equatable {
+extension AccuratSDK.AccuratLocateLocation : Swift.Equatable {
   public static func == (lhs: AccuratSDK.AccuratLocateLocation, rhs: AccuratSDK.AccuratLocateLocation) -> Swift.Bool
 }
 @objc public enum LanguageOption : Swift.Int, Swift.Codable {
@@ -118,7 +119,7 @@ public enum ReachabilityError : Swift.Error {
 }
 @available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
 public let ReachabilityChangedNotification: Foundation.NSNotification.Name
-extension NSNotification.Name {
+extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
 public class Reachability {
@@ -167,7 +168,7 @@ public class Reachability {
   convenience public init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
   @objc deinit
 }
-extension Reachability {
+extension AccuratSDK.Reachability {
   public func startNotifier() throws
   public func stopNotifier()
   public var isReachable: Swift.Bool {
@@ -184,6 +185,9 @@ extension Reachability {
   }
 }
 public typealias HttpParameters = Any
+extension Foundation.URLRequest {
+  public func cURL(pretty: Swift.Bool = false) -> Swift.String
+}
 @_inheritsConvenienceInitializers @objc public class Accurat : ObjectiveC.NSObject {
   @objc public static var shared: AccuratSDK.Accurat
   @objc public var isTrackingEnabled: Swift.Bool {
@@ -205,7 +209,7 @@ public typealias HttpParameters = Any
   @objc override dynamic public init()
   @objc deinit
 }
-extension Accurat {
+extension AccuratSDK.Accurat {
   @objc dynamic public func askConsents(onComplete: @escaping () -> Swift.Void)
   @objc dynamic public func updateTrackingConsent(state: Swift.Int)
   public func updateConsent(_ type: AccuratSDK.ConsentType, state: Swift.Int)
@@ -213,10 +217,10 @@ extension Accurat {
   public func getConsentState(_ type: AccuratSDK.ConsentType = .gdprConsent) -> Swift.Int?
   @objc dynamic public func getConsentStateObjc(_ type: Swift.String) -> Swift.Int
 }
-extension Accurat {
+extension AccuratSDK.Accurat {
   @objc dynamic public func onLocationUpdate(callback: @escaping ([CoreLocation.CLLocation]) -> Swift.Void)
 }
-extension Data {
+extension Foundation.Data {
   public func hashWithRSA2048Asn1Header(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
   public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
 }
@@ -232,7 +236,6 @@ extension Data {
 @objc public class AccuratConfig : ObjectiveC.NSObject {
   public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location])
   @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1])
-  @objc override dynamic public init()
   @objc deinit
 }
 public typealias LocationsHandler = ([(location: CoreLocation.CLLocation, context: AccuratSDK.AccuratLocateLocation.Context)]) -> Swift.Void
