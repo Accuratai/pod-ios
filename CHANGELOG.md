@@ -1,5 +1,7 @@
 ## Changelog
+### v2.0.3 - stable release - 07/10/2021
 
+- Fixed a crash caused by an infinity value
 ### v2.0.2 - stable release - 07/10/2021
 
 - Minor improvements 
