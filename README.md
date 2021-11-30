@@ -279,7 +279,7 @@ Accurat.shared.setLanguage(.en/.nl/.fr)
 Add interaction for consumer, based on given brand, campaign and touchpoint. If campaign and/or touchpoint does not exist, they will be created.
 
 ```swift
-Accurat.shared.interact(_ brand: String, campaign: String, touchpoint: String, onComplete: ((isSuccess) -> Void)?)
+Accurat.shared.interact(_ group: String, campaign: String, touchpoint: String, campaignStart: Date?, campaignEnd: Date?, campaignId: String?, onComplete: ((isSuccess) -> Void)?)
 ```
 
 ### Get segments (optional)
