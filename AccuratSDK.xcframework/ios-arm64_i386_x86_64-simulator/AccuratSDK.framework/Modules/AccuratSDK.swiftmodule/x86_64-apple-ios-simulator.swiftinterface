@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 effective-4.1.50 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 effective-4.1.50 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AccuratSDK
 @_exported import AccuratSDK
 import AdSupport
@@ -267,6 +267,12 @@ public protocol InteractServiceProtocol {
   @objc deinit
 }
 public typealias LocationsHandler = ([(location: CoreLocation.CLLocation, context: AccuratSDK.AccuratLocateLocation.Context)]) -> Swift.Void
+public class LoggingService {
+  public static var shared: AccuratSDK.LoggingService
+  public init()
+  public func log(_ value: Swift.String, key: Swift.String = "")
+  @objc deinit
+}
 extension AccuratSDK.HashOutputType : Swift.Equatable {}
 extension AccuratSDK.HashOutputType : Swift.Hashable {}
 extension AccuratSDK.HashType : Swift.Equatable {}

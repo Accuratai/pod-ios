@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.1.1 - stable release - 07/01/2022
+
+- Improved the interacts
+
 ### v2.1.0 - stable release - 30/11/2021
 
 - Improved the interacts
