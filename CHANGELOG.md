@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.1.2 - stable release - 21/01/2022
+
+- Improved the interacts
+
 ### v2.1.1 - stable release - 07/01/2022
 
 - Improved the interacts
@@ -7,6 +11,7 @@
 ### v2.1.0 - stable release - 30/11/2021
 
 - Improved the interacts
+  
 ### v2.0.3 - stable release - 07/10/2021
 
 - Fixed a crash caused by an infinity value
