@@ -14,8 +14,8 @@ You can find the instruction to integrate the Accurat SDK into your iOS app belo
 
 ## Requirements
 
-- iOS 9.0+
-- Xcode 11.0+
+- iOS 14.0+
+- Xcode 12.0+
 
 ## Upgrading from 1.x.x to 2.x.x
 
@@ -28,7 +28,7 @@ In your project settings, go to _Capabilities > Background Modes_ and turn on _B
 
 Then, add appropriate location usage descriptions to the `Info.plist` of your application. These strings will be displayed when prompting the user for location permissions.
 
-For **Xcode 9**:
+For **Xcode 14**:
 
 ```xml
 <key>NSLocationAlwaysUsageDescription</key>
@@ -238,6 +238,25 @@ To stop the location tracking, call the `stopTracking`-method:
 
 ```swift
 Accurat.shared.stopTracking()
+```
+
+### Enable debug logs? (optional)
+
+If you want to enable debug logs, pas the true boolean via the initialise function or via the config
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", enableDebugLogs: true)
+}
+```
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    let config = AccuratConfig(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", features: [.gdpr, .location], enableDebugLogs: true)
+    Accurat.shared.initialize(config: config)
+
+}
+
 ```
 
 ### Is tracking enabled? (optional)

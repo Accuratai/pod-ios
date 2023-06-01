@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.1.3 - stable release - 01/06/2023
+
+- Added the option to display debug logs
+  
 ### v2.1.2 - stable release - 21/01/2022
 
 - Improved the interacts
