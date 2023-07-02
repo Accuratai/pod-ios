@@ -255,8 +255,8 @@ extension Foundation.Data {
   }
 }
 @objc public class AccuratConfig : ObjectiveC.NSObject {
-  public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location], enableDebugLogs: Swift.Bool = false)
-  @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1], enableDebugLogs: Swift.Bool = false)
+  public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false)
+  @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false)
   @objc deinit
 }
 public protocol InteractServiceProtocol {

@@ -293,7 +293,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) Accurat * _Nonnull sha
 
 SWIFT_CLASS("_TtC10AccuratSDK13AccuratConfig")
 @interface AccuratConfig : NSObject
-- (nonnull instancetype)initWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password features:(NSArray<NSNumber *> * _Nullable)features enableDebugLogs:(BOOL)enableDebugLogs OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password features:(NSArray<NSNumber *> * _Nullable)features enableDebugLogs:(BOOL)enableDebugLogs connectToStaging:(BOOL)connectToStaging OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end

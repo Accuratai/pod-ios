@@ -6315,7 +6315,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:password:features:enableDebugLogs:)",
+            "printedName": "init(username:password:features:enableDebugLogs:connectToStaging:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6356,11 +6356,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogsACSS_SSSayAA7FeatureOGSbtcfc",
-            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogsACSS_SSSayAA7FeatureOGSbtcfc",
+            "usr": "s:10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStagingACSS_SSSayAA7FeatureOGS2btcfc",
+            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStagingACSS_SSSayAA7FeatureOGS2btcfc",
             "moduleName": "AccuratSDK",
             "declAttributes": [
               "AccessControl"
@@ -6370,7 +6377,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:password:features:enableDebugLogs:)",
+            "printedName": "init(username:password:features:enableDebugLogs:connectToStaging:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6419,13 +6426,20 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AccuratSDK@objc(cs)AccuratConfig(im)initWithUsername:password:features:enableDebugLogs:",
-            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogsACSS_SSSaySiGSgSbtcfc",
+            "usr": "c:@M@AccuratSDK@objc(cs)AccuratConfig(im)initWithUsername:password:features:enableDebugLogs:connectToStaging:",
+            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStagingACSS_SSSaySiGSgS2btcfc",
             "moduleName": "AccuratSDK",
-            "objc_name": "initWithUsername:password:features:enableDebugLogs:",
+            "objc_name": "initWithUsername:password:features:enableDebugLogs:connectToStaging:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -10814,15 +10828,8 @@
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
-      "kind": "StringLiteral",
-      "offset": 3748,
-      "length": 29,
-      "value": "\"https:\/\/app.accurat.ai\/api\/\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "BooleanLiteral",
-      "offset": 4702,
+      "offset": 4521,
       "length": 5,
       "value": "false"
     },
@@ -11242,21 +11249,35 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 509,
+      "offset": 540,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "Array",
-      "offset": 752,
+      "offset": 864,
       "length": 6,
       "value": "[0, 1]"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 784,
+      "offset": 896,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 928,
       "length": 5,
       "value": "false"
     },
