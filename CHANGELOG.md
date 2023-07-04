@@ -1,5 +1,13 @@
 ## Changelog
 
+### v2.1.5 - stable release - 04/06/2023
+
+- Fixed an issue where the ID is send over in lowercase
+
+### v2.1.4 - stable release - 02/06/2023
+
+- Allow the SDK to connect to the staging environment
+
 ### v2.1.3 - stable release - 01/06/2023
 
 - Added the option to display debug logs

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 effective-4.1.50 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 effective-4.1.50 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AccuratSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AccuratSDK
@@ -58,8 +58,8 @@ public struct Interact : Swift.Codable {
   public let campaignEnd: Foundation.Date?
   public let campaignId: Swift.String?
   public init(campaign: Swift.String, touchpoint: Swift.String, group: Swift.String, uuid: Foundation.UUID = UUID(), timestamp: Swift.String = Date().iso8601, campaignStart: Foundation.Date? = nil, campaignEnd: Foundation.Date? = nil, campaignId: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AccuratLocateLocation {
   public enum Context : Swift.String {
@@ -82,7 +82,7 @@ public struct AccuratLocateLocation {
   }
 }
 extension AccuratSDK.AccuratLocateLocation {
-  public var json: AccuratSDK.HttpParameters {
+  public var json: Any {
     get
   }
 }
@@ -113,7 +113,7 @@ public struct AccuratGeofence : Swift.Decodable {
     get
   }
   public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance)
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ConsentType : Swift.String, Swift.Codable {
   case unknown
@@ -219,13 +219,13 @@ extension Foundation.URLRequest {
   @objc public func setLanguage(_ language: AccuratSDK.LanguageOption)
   @objc public func startTracking(_ onComplete: (() -> Swift.Void)? = nil)
   @objc public func stopTracking()
-  @objc public func getCurrentLocationAsJSON(completion: (Swift.String?, Swift.Error?) -> Swift.Void) throws
+  @objc public func getCurrentLocationAsJSON(completion: (Swift.String?, (any Swift.Error)?) -> Swift.Void) throws
   @objc public func performBackgroundFetchWithCompletionHandler(_ completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
-  public func getCurrentLocation(completion: (AccuratSDK.AccuratLocateLocation?, Swift.Error?) -> Swift.Void) throws
+  public func getCurrentLocation(completion: (AccuratSDK.AccuratLocateLocation?, (any Swift.Error)?) -> Swift.Void) throws
   @objc public func interact(_ group: Swift.String, campaign: Swift.String, touchpoint: Swift.String, campaignStart: Foundation.Date? = nil, campaignEnd: Foundation.Date? = nil, campaignId: Swift.String? = nil, onComplete: ((Swift.Bool) -> Swift.Void)?)
   @objc public func getSegments(onComplete: @escaping (Swift.Array<Swift.String>) -> Swift.Void)
-  public func invokeRight(right: Swift.String, info: Swift.String?, completion: ((Swift.Result<Swift.Void, Swift.Error>) -> Swift.Void)? = nil)
-  public func setMeta(key: Swift.String, value: Swift.String, completion: ((Swift.Result<Swift.Void, Swift.Error>) -> Swift.Void)?)
+  public func invokeRight(right: Swift.String, info: Swift.String?, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
+  public func setMeta(key: Swift.String, value: Swift.String, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)?)
   public func getMeta(completion: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
