@@ -120,6 +120,7 @@ public enum ConsentType : Swift.String, Swift.Codable {
   case gdprConsent
   case locationPermission
   case alwaysLocationPermission
+  case preciseLocationPermission
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

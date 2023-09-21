@@ -1,5 +1,10 @@
 ## Changelog
 
+### v2.1.6 - stable release - 21/09/2023
+
+- Send precise location on/off to the backend
+- Removed the callback from the stop tracking function
+  
 ### v2.1.5 - stable release - 04/06/2023
 
 - Fixed an issue where the ID is send over in lowercase
