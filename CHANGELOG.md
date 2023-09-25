@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.1.7 - stable release - 21/09/2023
+
+- Log more location permissions
+  
 ### v2.1.6 - stable release - 21/09/2023
 
 - Send precise location on/off to the backend
