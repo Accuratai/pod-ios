@@ -1,7 +1,7 @@
 framework module AccuratSDK {
   umbrella header "AccuratSDK.h"
-
   export *
+
   module * { export * }
 }
 
