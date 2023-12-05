@@ -11278,8 +11278,15 @@
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2563,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 3285,
+      "offset": 3273,
       "length": 4,
       "value": "\"GM\""
     },
@@ -11293,189 +11300,189 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 3958,
+      "offset": 3946,
       "length": 24,
       "value": "\"No last location found\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 4596,
+      "offset": 4584,
       "length": 72,
       "value": "\"We are still inside the meta geofence, no need to update the geofences\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 4757,
+      "offset": 4745,
       "length": 73,
       "value": "\"We are outside the meta geofence for some reason, get the new geofences\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5200,
+      "offset": 5188,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 5480,
+      "offset": 5468,
       "length": 91,
       "value": "\"We only have \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 5524,
+      "offset": 5512,
       "length": 9,
       "value": "\" geofences so no need to perform the algorithm\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5677,
+      "offset": 5665,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5764,
+      "offset": 5752,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5865,
+      "offset": 5853,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6153,
+      "offset": 6141,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 7271,
+      "offset": 7259,
       "length": 193,
       "value": "\"It took \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 7291,
+      "offset": 7279,
       "length": 7,
       "value": "\" seconds and \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 7335,
+      "offset": 7323,
       "length": 10,
       "value": "\" iterations to find \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 7381,
+      "offset": 7369,
       "length": 9,
       "value": "\" geofences with box: [\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 7431,
+      "offset": 7419,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 7462,
+      "offset": 7450,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7570,
+      "offset": 7558,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7836,
+      "offset": 7824,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8213,
+      "offset": 8201,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8259,
+      "offset": 8247,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 9158,
+      "offset": 9146,
       "length": 57,
       "value": "\"metageofence radius: \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 9214,
+      "offset": 9202,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 9314,
+      "offset": 9302,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 11240,
+      "offset": 11228,
       "length": 28,
       "value": "\"Enter \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 11267,
+      "offset": 11255,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 11274,
+      "offset": 11262,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 11295,
+      "offset": 11283,
       "length": 2,
       "value": "\"\""
     },
@@ -12406,259 +12413,308 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3654,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3747,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3837,
-      "length": 93,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3851,
-      "length": 2,
-      "value": "\" || Getting geofence status with checksum \""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3926,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3929,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3993,
-      "length": 52,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4009,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4044,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4072,
-      "length": 10,
-      "value": "\"checksum\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4115,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4432,
-      "length": 55,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4446,
-      "length": 2,
-      "value": "\" || Successfully fetched geofence status\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 4711,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5238,
-      "length": 69,
-      "value": "\"failure fetching geofence status - \""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5287,
-      "length": 1,
-      "value": "\"!!! Error: \""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5306,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5687,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5780,
-      "length": 36,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5794,
-      "length": 2,
-      "value": "\" || Getting geofences\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5879,
-      "length": 55,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5895,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 5933,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 6905,
-      "length": 69,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 6919,
-      "length": 2,
-      "value": "\" || Successfully fetched geofences: \""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 6973,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 7452,
-      "length": 63,
-      "value": "\"failure fetching geofences - \""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 7495,
-      "length": 1,
-      "value": "\"!!! Error: \""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 7514,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8737,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10517,
+      "offset": 1948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "StringLiteral",
-      "offset": 10647,
+      "offset": 1990,
+      "length": 51,
+      "value": "\"Local geofences are empty, fetch server geofences\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2503,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 2658,
+      "length": 152,
+      "value": "\"Don't update geofences: last update (\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 2737,
+      "length": 19,
+      "value": "\"dd\/MM\/yy HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 2758,
+      "length": 1,
+      "value": "\") date is still in the same geofenceUpdate interval\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 2923,
+      "length": 54,
+      "value": "\"Update geofences: geofenceUpdateInterval has expired\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3604,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3697,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 93,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3801,
+      "length": 2,
+      "value": "\" || Getting geofence status with checksum \""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3876,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3879,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3943,
+      "length": 52,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3959,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3994,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 4022,
+      "length": 10,
+      "value": "\"checksum\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 4065,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 4382,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 4396,
+      "length": 2,
+      "value": "\" || Successfully fetched geofence status\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 4661,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5188,
+      "length": 69,
+      "value": "\"failure fetching geofence status - \""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5237,
+      "length": 1,
+      "value": "\"!!! Error: \""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5256,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5637,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5730,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5744,
+      "length": 2,
+      "value": "\" || Getting geofences\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5829,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5845,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 5883,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 6855,
+      "length": 69,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 6869,
+      "length": 2,
+      "value": "\" || Successfully fetched geofences: \""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 6923,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 7402,
+      "length": 63,
+      "value": "\"failure fetching geofences - \""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 7445,
+      "length": 1,
+      "value": "\"!!! Error: \""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 7464,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8687,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10467,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 10597,
       "length": 9,
       "value": "\"a\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 10653,
+      "offset": 10603,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "StringLiteral",
-      "offset": 10655,
+      "offset": 10605,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "StringLiteral",
-      "offset": 10664,
+      "offset": 10614,
       "length": 7,
       "value": "\"1|2|3\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "FloatLiteral",
-      "offset": 10734,
+      "offset": 10684,
       "length": 5,
       "value": "125.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "Array",
-      "offset": 10877,
+      "offset": 10827,
       "length": 1990,
       "value": "[(51.050726, 3.732043), (51.011728, 3.751548), (51.013606, 3.752413), (51.015550, 3.752860), (51.017494, 3.753525), (51.019434, 3.753697), (51.021327, 3.752915), (51.023163, 3.751951), (51.024575, 3.749851), (51.026191, 3.748157), (51.027942, 3.746764), (51.029644, 3.745171), (51.031273, 3.743349), (51.033100, 3.742682), (51.034120, 3.739897), (51.034163, 3.739865), (51.035991, 3.738962), (51.037857, 3.737247), (51.039734, 3.736232), (51.041567, 3.735205), (51.043457, 3.734089), (51.045274, 3.733011), (51.047119, 3.732418), (51.048938, 3.731106), (51.050612, 3.732088), (51.051586, 3.728538), (51.053015, 3.726067), (51.053658, 3.723392), (51.053607, 3.722233), (51.053314, 3.722222), (51.052973, 3.722151), (51.052400, 3.721981), (51.052222, 3.723323), (51.052657, 3.723912), (51.053170, 3.724540), (51.052309, 3.724905), (51.055445, 3.721235), (51.056736, 3.723644), (51.054217, 3.724729), (51.053755, 3.726365), (51.053724, 3.727919), (51.009773, 3.751596), (51.011258, 3.753495), (51.010488, 3.756360)]"
     },
@@ -14240,203 +14296,203 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 7667,
+      "offset": 7669,
       "length": 16,
       "value": "\"Fallback error\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 7778,
+      "offset": 7780,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9882,
+      "offset": 9884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 9932,
+      "offset": 9934,
       "length": 6,
       "value": "\"\\\n\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 9941,
+      "offset": 9943,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 9975,
+      "offset": 9977,
       "length": 12,
       "value": "\"--request \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 9990,
+      "offset": 9992,
       "length": 5,
       "value": "\"-X \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 9999,
+      "offset": 10001,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10021,
+      "offset": 10023,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10027,
+      "offset": 10029,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10038,
+      "offset": 10040,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10076,
+      "offset": 10078,
       "length": 8,
       "value": "\"--url \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10087,
+      "offset": 10089,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10093,
+      "offset": 10095,
       "length": 50,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10126,
+      "offset": 10128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10129,
+      "offset": 10131,
       "length": 1,
       "value": "\"' \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10142,
+      "offset": 10144,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10172,
+      "offset": 10174,
       "length": 7,
       "value": "\"curl \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10201,
+      "offset": 10203,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10231,
+      "offset": 10233,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 10323,
+      "offset": 10325,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10408,
+      "offset": 10410,
       "length": 11,
       "value": "\"--header \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10422,
+      "offset": 10424,
       "length": 5,
       "value": "\"-H \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10431,
+      "offset": 10433,
       "length": 33,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10440,
+      "offset": 10442,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10450,
+      "offset": 10452,
       "length": 1,
       "value": "\"' \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10463,
+      "offset": 10465,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10639,
+      "offset": 10641,
       "length": 24,
       "value": "\"--data '\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 10661,
+      "offset": 10663,
       "length": 2,
       "value": "\"'\""
     },
@@ -18075,197 +18131,211 @@
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
+      "kind": "StringLiteral",
+      "offset": 3661,
+      "length": 62,
+      "value": "\"Interact || Won't send new interacts, because they are empty\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "Array",
-      "offset": 3636,
+      "offset": 3831,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 3666,
+      "offset": 3861,
       "length": 14,
       "value": "\"interactions\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 3832,
+      "offset": 4027,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 3877,
+      "offset": 4072,
       "length": 10,
       "value": "\"campaign\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 4123,
       "length": 12,
       "value": "\"touchpoint\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 3983,
+      "offset": 4178,
       "length": 15,
       "value": "\"utc_timestamp\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4145,
+      "offset": 4340,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4304,
-      "length": 16,
-      "value": "\"campaign_start\""
+      "offset": 4499,
+      "length": 12,
+      "value": "\"start_date\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4473,
-      "length": 14,
-      "value": "\"campaign_end\""
+      "offset": 4664,
+      "length": 11,
+      "value": "\"start_end\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4684,
+      "offset": 4872,
       "length": 96,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4700,
+      "offset": 4888,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4735,
+      "offset": 4923,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4743,
+      "offset": 4931,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 4779,
+      "offset": 4967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5099,
+      "offset": 5287,
       "length": 93,
       "value": "\"Interact || POST \/\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5153,
+      "offset": 5341,
       "length": 1,
       "value": "\"\/ad_id \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5191,
+      "offset": 5379,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5199,
+      "offset": 5387,
       "length": 11,
       "value": "\"TIMESTAMP\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5386,
+      "offset": 5574,
       "length": 77,
       "value": "\"Interact || \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5412,
+      "offset": 5600,
       "length": 2,
       "value": "\" || Successfully uploaded \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5452,
+      "offset": 5640,
       "length": 9,
       "value": "\" interacts\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5500,
+      "offset": 5688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5554,
+      "offset": 5742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5795,
+      "offset": 5983,
       "length": 72,
       "value": "\"Interact || failure during interact - \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5847,
+      "offset": 6035,
       "length": 1,
       "value": "\"!!! Error: \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "StringLiteral",
-      "offset": 5866,
+      "offset": 6054,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5918,
+      "offset": 6106,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat\/sdk\/AccuratSDK\/Source\/Core\/InteractService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6067,
+      "offset": 6255,
       "length": 5,
       "value": "false"
     },

@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.1.8 - stable release - 05/12/2023
+
+- Bugfixes for the interacts
+
 ### v2.1.7 - stable release - 21/09/2023
 
 - Log more location permissions
