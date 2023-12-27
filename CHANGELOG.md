@@ -1,5 +1,13 @@
 ## Changelog
 
+### v2.1.10 - stable release - 05/12/2023
+
+- Added additional tracking stats and bug fixes (metadata, uppercaseID, permission sync)
+
+### v2.1.9 - stable release - 05/12/2023
+
+- Bugfixes for the interacts
+  
 ### v2.1.8 - stable release - 05/12/2023
 
 - Bugfixes for the interacts
