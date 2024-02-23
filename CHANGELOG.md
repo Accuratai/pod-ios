@@ -1,5 +1,13 @@
 ## Changelog
 
+### v2.2.0 - stable release - 23/02/2024
+
+- Upload consent to server when `updateConsent` is called
+- Interacts are send to the server with the correct format
+- Added force tracking method
+- Added method to fetch data the SDK version
+- Precise location is send as a consent to the server
+
 ### v2.1.10 - stable release - 05/12/2023
 
 - Added additional tracking stats and bug fixes (metadata, uppercaseID, permission sync)

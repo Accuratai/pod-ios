@@ -87,7 +87,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'Accurat', :git => 'https://gitlab.com/accuratai/pod-ios'
+    pod 'Accurat', :git => 'https://github.com/accuratai/pod-ios'
 end
 ```
 
@@ -102,7 +102,7 @@ $ pod install
 To integrate Accurat into your Xcode project using the Swift Package Manager do the following in XCode:
 - Go to `File > Swift Packages > Add Package Dependency`.
 - Select the correct project
-- Enter the following URL `https://gitlab.com/accuratai/pod-ios`
+- Enter the following URL `https://github.com/accuratai/pod-ios`
 - Select `Version` and leave it as is
 - Click `Next` and the package should be added to you project
 ## Integrate SDK into app

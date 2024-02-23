@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 effective-4.1.50 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 effective-4.1.50 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name AccuratSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AccuratSDK
@@ -104,16 +104,28 @@ public struct AccuratGeofenceRange {
   public let latitudeRange: CoreLocation.CLLocationDegrees
   public let longitudeRange: CoreLocation.CLLocationDegrees
 }
+public enum GeofenceType : Swift.String, Swift.Codable {
+  case unknown
+  case exit
+  case entry
+  case dwell
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct AccuratGeofence : Swift.Decodable {
   public let id: Swift.String
   public let nids: Swift.String
   public let latitude: CoreLocation.CLLocationDegrees
   public let longitude: CoreLocation.CLLocationDegrees
   public let radius: CoreLocation.CLLocationDistance
+  public let type: AccuratSDK.GeofenceType
   public var region: CoreLocation.CLRegion {
     get
   }
-  public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance)
+  public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance, type: AccuratSDK.GeofenceType = .unknown)
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum ConsentType : Swift.String, Swift.Codable {
@@ -206,6 +218,9 @@ extension Foundation.Date {
   public var iso8601: Swift.String {
     get
   }
+  public var iso8601Short: Swift.String {
+    get
+  }
 }
 public typealias HttpParameters = Any
 extension Foundation.URLRequest {
@@ -220,6 +235,7 @@ extension Foundation.URLRequest {
   @objc public func initialize(config: AccuratSDK.AccuratConfig)
   @objc public func setLanguage(_ language: AccuratSDK.LanguageOption)
   @objc public func startTracking(_ onComplete: (() -> Swift.Void)? = nil)
+  @objc public func forceStartTracking(_ onComplete: (() -> Swift.Void)? = nil)
   @objc public func stopTracking()
   @objc public func getCurrentLocationAsJSON(completion: (Swift.String?, (any Swift.Error)?) -> Swift.Void) throws
   @objc public func performBackgroundFetchWithCompletionHandler(_ completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
@@ -229,6 +245,9 @@ extension Foundation.URLRequest {
   public func invokeRight(right: Swift.String, info: Swift.String?, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
   public func setMeta(key: Swift.String, value: Swift.String, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)?)
   public func getMeta(completion: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  public func getAppVersion() -> Swift.String
+  public func getAppBuildVersion() -> Swift.String
+  public func getSDKVersion() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -287,6 +306,9 @@ extension AccuratSDK.AccuratLocateLocation.Context : Swift.RawRepresentable {}
 extension AccuratSDK.LanguageOption : Swift.Equatable {}
 extension AccuratSDK.LanguageOption : Swift.Hashable {}
 extension AccuratSDK.LanguageOption : Swift.RawRepresentable {}
+extension AccuratSDK.GeofenceType : Swift.Equatable {}
+extension AccuratSDK.GeofenceType : Swift.Hashable {}
+extension AccuratSDK.GeofenceType : Swift.RawRepresentable {}
 extension AccuratSDK.ConsentType : Swift.Equatable {}
 extension AccuratSDK.ConsentType : Swift.Hashable {}
 extension AccuratSDK.ConsentType : Swift.RawRepresentable {}
