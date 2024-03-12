@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.2.1 - stable release - 12/03/2024
+
+- Changed the logic to determine the keywindow
+
 ### v2.2.0 - stable release - 23/02/2024
 
 - Upload consent to server when `updateConsent` is called
