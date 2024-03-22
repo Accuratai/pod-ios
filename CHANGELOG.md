@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.2.2 - stable release - 22/03/2024
+
+- Added additional logging
+
 ### v2.2.1 - stable release - 12/03/2024
 
 - Changed the logic to determine the keywindow
