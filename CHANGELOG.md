@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.2.3 - stable release - 22/03/2024
+
+- Bugfixes for the consent screens
+  
 ### v2.2.2 - stable release - 22/03/2024
 
 - Added additional logging
