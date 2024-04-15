@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.2.4 - stable release - 15/04/2024
+
+- Bugfixes for background task
+
 ### v2.2.3 - stable release - 22/03/2024
 
 - Bugfixes for the consent screens
