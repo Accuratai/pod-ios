@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.2.6 - stable release - 19/04/2024
+
+- You will now see a log if the info.plist keys are missing
+  
 ### v2.2.5 - stable release - 19/04/2024
 
 - Additional logging
