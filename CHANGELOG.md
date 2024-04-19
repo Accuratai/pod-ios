@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.2.5 - stable release - 19/04/2024
+
+- Additional logging
+
 ### v2.2.4 - stable release - 15/04/2024
 
 - Bugfixes for background task
