@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.3.1 - stable release - 22/04/2024
+
+- Additional logging
+
 ### v2.3.0 - stable release - 22/04/2024
 
 - Fixed an issue where the file would become too big
