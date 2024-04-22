@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.3.0 - stable release - 22/04/2024
+
+- Fixed an issue where the file would become too big
+
 ### v2.2.6 - stable release - 19/04/2024
 
 - You will now see a log if the info.plist keys are missing

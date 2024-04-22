@@ -18075,7 +18075,7 @@
       "kind": "StringLiteral",
       "offset": 6872,
       "length": 7,
-      "value": "\"2.2.6\""
+      "value": "\"2.3.0\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
@@ -21587,196 +21587,196 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1270,
+      "offset": 1269,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1284,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1321,
+      "offset": 1320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1527,
+      "offset": 1546,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1542,
+      "offset": 1561,
       "length": 1,
       "value": "\" \n\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1658,
+      "offset": 1756,
       "length": 29,
       "value": "\"failed with error: \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1686,
+      "offset": 1784,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1856,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1792,
+      "offset": 1890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1950,
       "length": 29,
       "value": "\"failed with error: \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 1978,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 2088,
+      "offset": 2186,
       "length": 29,
       "value": "\"failed with error: \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 2116,
+      "offset": 2214,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 2153,
+      "offset": 2251,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 4146,
+      "offset": 4244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 4272,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4206,
+      "offset": 4304,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4213,
+      "offset": 4311,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 4219,
+      "offset": 4317,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4979,
+      "offset": 5077,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 5291,
       "length": 66,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5227,
+      "offset": 5325,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5258,
+      "offset": 5356,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5326,
+      "offset": 5424,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5709,
+      "offset": 5807,
       "length": 27,
       "value": "\"success logging to server\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5842,
+      "offset": 5940,
       "length": 62,
       "value": "\"failure logging to server - \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5884,
+      "offset": 5982,
       "length": 1,
       "value": "\"!!! Error: \""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
       "kind": "StringLiteral",
-      "offset": 5903,
+      "offset": 6001,
       "length": 2,
       "value": "\"\""
     },
