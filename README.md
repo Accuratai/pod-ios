@@ -31,8 +31,6 @@ Then, add appropriate location usage descriptions to the `Info.plist` of your ap
 For **Xcode 14**:
 
 ```xml
-<key>NSLocationAlwaysUsageDescription</key>
-<string>This makes it possible to send you notifications with relevant info, even when you are not using the app.</string>
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>That way, we can personalize the content and ads in the app based on your preferences.</string>
 <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
@@ -46,7 +44,6 @@ Example languages:
 - `en.lproj`
 
 ```
-NSLocationAlwaysUsageDescription = "This makes it possible to send you notifications with relevant info, even when you are not using the app.";
 NSLocationWhenInUseUsageDescription = "That way, we can personalize the content and ads in the app based on your preferences.";
 NSLocationAlwaysAndWhenInUseUsageDescription = "This makes it possible to send you notifications with relevant info, even when you are not using the app.";
 ```
@@ -54,7 +51,6 @@ NSLocationAlwaysAndWhenInUseUsageDescription = "This makes it possible to send y
 - `nl.lproj`
 
 ```
-NSLocationAlwaysUsageDescription = "Zo is het mogelijk om u notificaties te versturen met gepersonaliseerde inhoud, ook wanneer u de app niet gebruikt.";
 NSLocationWhenInUseUsageDescription = "Zo kunnen we in de app de inhoud en advertenties personaliseren op maat van jouw voorkeuren.";
 NSLocationAlwaysAndWhenInUseUsageDescription = "Zo is het mogelijk om u notificaties te versturen met gepersonaliseerde inhoud, ook wanneer u de app niet gebruikt.";
 ```
@@ -62,7 +58,6 @@ NSLocationAlwaysAndWhenInUseUsageDescription = "Zo is het mogelijk om u notifica
 - `fr.lproj`
 
 ```
-NSLocationAlwaysUsageDescription = "Il est donc possible de vous envoyer des notifications avec un contenu personnalisé, même lorsque vous n'utilisez pas l'application.";
 NSLocationWhenInUseUsageDescription = "Comme ça, nous pouvons personnaliser le contenu et les publicités dans l'app en fonction de vos préférences.";
 NSLocationAlwaysAndWhenInUseUsageDescription = "Il est donc possible de vous envoyer des notifications avec un contenu personnalisé, même lorsque vous n'utilisez pas l'application.";
 ```

@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.3.2 - stable release - 25/04/2024
+
+- Removed location string `NSLocationAlwaysUsageDescription`
+  
 ### v2.3.1 - stable release - 22/04/2024
 
 - Additional logging
