@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.4.0 - stable release - 24/05/2024
+
+- Added the `PrivacyInfo.xcprivacy` file
+  
 ### v2.3.2 - stable release - 25/04/2024
 
 - Removed location string `NSLocationAlwaysUsageDescription`
