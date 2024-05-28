@@ -1,6 +1,10 @@
 ## Changelog
 
-### v2.4.0 - stable release - 24/05/2024
+### v2.4.1 - unstable release - 28/05/2024
+
+- Fixed an issue with the `PrivacyInfo.xcprivacy` file
+  
+### v2.4.0 - revoked release - 24/05/2024
 
 - Added the `PrivacyInfo.xcprivacy` file
   
