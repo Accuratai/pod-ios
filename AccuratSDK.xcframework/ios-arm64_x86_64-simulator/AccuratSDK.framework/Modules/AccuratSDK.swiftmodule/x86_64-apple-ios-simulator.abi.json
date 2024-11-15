@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AccuratSDK",
+    "printedName": "AccuratSDK",
     "children": [
       {
         "kind": "Import",
@@ -212,6 +212,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -561,6 +575,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1223,6 +1251,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1847,6 +1889,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1968,6 +2024,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2200,6 +2270,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2408,6 +2492,22 @@
         "moduleName": "AccuratSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2645,6 +2745,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3101,6 +3215,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3390,6 +3518,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3686,6 +3828,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -3966,6 +4122,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -4949,6 +5119,22 @@
         "moduleName": "AccuratSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6379,6 +6565,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6756,6 +6956,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6971,6 +7185,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7218,6 +7446,22 @@
         "moduleName": "AccuratSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7387,6 +7631,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "InteractServiceProtocol",
@@ -7674,6 +7932,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7827,6 +8101,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8420,6 +8708,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -8629,6 +8931,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -8771,6 +9087,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8852,6 +9182,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8997,6 +9341,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -9546,6 +9904,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -9742,13 +10114,6 @@
       "value": "\"databaseTimestamp\""
     },
     {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Interact.swift",
-      "kind": "StringLiteral",
-      "offset": 2337,
-      "length": 14,
-      "value": "\"AccuratSDK.InteractCoding\""
-    },
-    {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "StringLiteral",
       "offset": 592,
@@ -9768,13 +10133,6 @@
       "offset": 819,
       "length": 3,
       "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 418,
-      "length": 27,
-      "value": "\"AccuratSDK.GeofenceNotificationManager\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Database\/Database.swift",
@@ -10066,95 +10424,11 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 2918,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 2950,
-      "length": 9,
-      "value": "\"regular\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 2986,
-      "length": 13,
-      "value": "\"visit_entry\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3025,
-      "length": 12,
-      "value": "\"visit_exit\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3066,
-      "length": 15,
-      "value": "\"visit_trigger\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3111,
-      "length": 16,
-      "value": "\"geofence_entry\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3156,
-      "length": 15,
-      "value": "\"geofence_exit\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3205,
-      "length": 21,
-      "value": "\"extra_geofence_exit\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3258,
-      "length": 18,
-      "value": "\"background_fetch\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 3318,
-      "length": 29,
-      "value": "\"significant_location_change\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
       "offset": 3389,
       "length": 6,
       "value": "\"idfa\""
     },
     {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Location.swift",
-      "kind": "StringLiteral",
-      "offset": 11056,
-      "length": 6,
-      "value": "\"AccuratSDK.Coding\""
-    },
-    {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
@@ -10167,27 +10441,6 @@
       "offset": 242,
       "length": 2,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "IntegerLiteral",
-      "offset": 230,
-      "length": 2,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "IntegerLiteral",
-      "offset": 242,
-      "length": 2,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 6,
-      "value": "\"data\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
@@ -10223,69 +10476,6 @@
       "offset": 887,
       "length": 12,
       "value": "\"parameters\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 775,
-      "length": 10,
-      "value": "\"app_name\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 810,
-      "length": 11,
-      "value": "\"app_token\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 848,
-      "length": 13,
-      "value": "\"client_name\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 887,
-      "length": 12,
-      "value": "\"parameters\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 1214,
-      "length": 27,
-      "value": "\"ios_transmission_interval\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 1296,
-      "length": 19,
-      "value": "\"geofence_interval\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 1351,
-      "length": 27,
-      "value": "\"ios_extra_geofence_radius\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 1419,
-      "length": 33,
-      "value": "\"ios_extra_geofence_small_radius\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
-      "kind": "StringLiteral",
-      "offset": 1477,
-      "length": 10,
-      "value": "\"geofence\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Setting.swift",
@@ -10400,13 +10590,6 @@
       "value": "\"accurat.geofence.queue.async\""
     },
     {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 441,
-      "length": 15,
-      "value": "\"AccuratSDK.GeofenceManager\""
-    },
-    {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
       "offset": 841,
@@ -10433,76 +10616,6 @@
       "offset": 916,
       "length": 7,
       "value": "\"dwell\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 841,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 6,
-      "value": "\"exit\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 891,
-      "length": 7,
-      "value": "\"entry\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 916,
-      "length": 7,
-      "value": "\"dwell\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1048,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1073,
-      "length": 6,
-      "value": "\"nids\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1104,
-      "length": 5,
-      "value": "\"lat\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1135,
-      "length": 5,
-      "value": "\"lng\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1163,
-      "length": 8,
-      "value": "\"radius\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 1192,
-      "length": 6,
-      "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
@@ -10596,48 +10709,6 @@
       "value": "\"idfa\""
     },
     {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
-      "kind": "StringLiteral",
-      "offset": 3055,
-      "length": 14,
-      "value": "\"AccuratSDK.GeofenceCoding\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 222,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 255,
-      "length": 6,
-      "value": "\"gdpr\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 18,
-      "value": "\"inapp_permission\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 347,
-      "length": 19,
-      "value": "\"always_permission\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 20,
-      "value": "\"precise_permission\""
-    },
-    {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
       "kind": "StringLiteral",
       "offset": 222,
@@ -10678,62 +10749,6 @@
       "offset": 556,
       "length": 6,
       "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 998,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
-      "length": 8,
-      "value": "\"accept\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1073,
-      "length": 8,
-      "value": "\"refute\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1108,
-      "length": 6,
-      "value": "\"next\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1147,
-      "length": 22,
-      "value": "\"is_system_permission\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1233,
-      "length": 13,
-      "value": "\"brand_color\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
-      "kind": "StringLiteral",
-      "offset": 1275,
-      "length": 15,
-      "value": "\"screen_repeat\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
@@ -10835,20 +10850,6 @@
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 218,
-      "length": 20,
-      "value": "\"2\/geofences\/status\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 260,
-      "length": 13,
-      "value": "\"2\/geofences\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceService.swift",
       "kind": "FloatLiteral",
       "offset": 984,
       "length": 4,
@@ -10864,44 +10865,23 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1231,
+      "offset": 1290,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentManager.swift",
       "kind": "StringLiteral",
-      "offset": 1394,
+      "offset": 1453,
       "length": 29,
       "value": "\"accurat.consent.queue.async\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15750,
+      "offset": 15773,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 225,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 11,
-      "value": "\"unchanged\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 9,
-      "value": "\"changed\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceStatus.swift",
@@ -11228,7 +11208,7 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Http\/HttpClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9955,
+      "offset": 9962,
       "length": 5,
       "value": "false"
     },
@@ -11238,62 +11218,6 @@
       "offset": 2103,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 255,
-      "length": 12,
-      "value": "\"2\/consents\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 291,
-      "length": 11,
-      "value": "\"2\/consent\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 322,
-      "length": 13,
-      "value": "\"2\/consumers\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 12,
-      "value": "\"2\/settings\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 389,
-      "length": 11,
-      "value": "\"\/interact\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 421,
-      "length": 11,
-      "value": "\"\/segments\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 10,
-      "value": "\"2\/rights\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 7,
-      "value": "\"2\/log\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/ConsentService.swift",
@@ -11389,13 +11313,6 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/UserConsent.swift",
       "kind": "StringLiteral",
-      "offset": 328,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/UserConsent.swift",
-      "kind": "StringLiteral",
       "offset": 1388,
       "length": 8,
       "value": "\"201807\""
@@ -11403,35 +11320,35 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LocationDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1722,
       "length": 10,
       "value": "\"Location\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LocationDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 1692,
+      "offset": 1763,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LocationDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1805,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LocationDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1853,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LocationDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 1883,
+      "offset": 1954,
       "length": 1,
       "value": "2"
     },
@@ -11534,13 +11451,6 @@
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratSegment.swift",
-      "kind": "StringLiteral",
-      "offset": 289,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 288,
@@ -11728,209 +11638,6 @@
       "offset": 1901,
       "length": 33,
       "value": "\"Accuerat_gdprConsentSetExternal\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 288,
-      "length": 24,
-      "value": "\"Accurat_startRequested\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 18,
-      "value": "\"Accurat_consents\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 22,
-      "value": "\"Accurat_userConsents\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 419,
-      "length": 18,
-      "value": "\"Accurat_settings\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 14,
-      "value": "\"Accurat_adId\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 22,
-      "value": "\"Accurat_userLanguage\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 557,
-      "length": 39,
-      "value": "\"Accurat_userLanguageUpdateUserProfile\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 627,
-      "length": 30,
-      "value": "\"Accurat_last_geofence_update\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 694,
-      "length": 37,
-      "value": "\"Accurat_last_active_location_update\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 766,
-      "length": 35,
-      "value": "\"Accurat_last_user_settings_update\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 825,
-      "length": 22,
-      "value": "\"Accurat_inside_visit\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 876,
-      "length": 28,
-      "value": "\"Accurat_geofence_check_sum\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 948,
-      "length": 41,
-      "value": "\"Accurat_didAskAlwaysLocationPermissions\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1016,
-      "length": 24,
-      "value": "\"Accurat_isAdIdDisabled\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1072,
-      "length": 29,
-      "value": "\"Accurat_trackingRefuseCount\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1133,
-      "length": 29,
-      "value": "\"Accurat_locationRefuseCount\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1198,
-      "length": 33,
-      "value": "\"Accurat_locationRefuseTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1269,
-      "length": 35,
-      "value": "\"Accurat_alwaysLocationRefuseCount\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1346,
-      "length": 39,
-      "value": "\"Accurat_alwaysLocationRefuseTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1423,
-      "length": 35,
-      "value": "\"Accurat_lastNotificationTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1489,
-      "length": 28,
-      "value": "\"Accurat_lastNotificationId\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1554,
-      "length": 34,
-      "value": "\"Accurat_lastTriggeredLocationLat\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1625,
-      "length": 34,
-      "value": "\"Accurat_lastTriggeredLocationLng\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1702,
-      "length": 40,
-      "value": "\"Accurat_lastTriggeredLocationTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1785,
-      "length": 40,
-      "value": "\"Accurat_lastTriggeredInteractTimestamp\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1847,
-      "length": 19,
-      "value": "\"Accurat_interacts\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1901,
-      "length": 33,
-      "value": "\"Accuerat_gdprConsentSetExternal\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Extension\/NSUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1994,
-      "length": 11,
-      "value": "\"AccuratSDK.DefaultsKey\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 221,
-      "length": 8,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
@@ -11973,13 +11680,6 @@
       "offset": 928,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 13,
-      "value": "\"AccuratSDK.AccuratConfig\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Database\/Statement.swift",
@@ -12050,13 +11750,6 @@
       "offset": 920,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratNotification.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 6,
-      "value": "\"data\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratNotification.swift",
@@ -12155,20 +11848,6 @@
       "offset": 2533,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Http\/HttpRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1246,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Http\/HttpRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1268,
-      "length": 5,
-      "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Http\/HttpRequest.swift",
@@ -12351,13 +12030,6 @@
       "offset": 3383,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2544,
-      "length": 15,
-      "value": "\"AccuratSDK.LocationManager\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/LoggingService.swift",
