@@ -1,5 +1,10 @@
 ## Changelog
 
+### v2.5.0 - unstable release - 15/11/2024
+
+- Fixed an issue where the geofences weren't loaded the first time
+- Smaller bugfix
+
 ### v2.4.1 - unstable release - 28/05/2024
 
 - Fixed an issue with the `PrivacyInfo.xcprivacy` file
