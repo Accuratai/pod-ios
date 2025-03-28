@@ -2,9 +2,9 @@
 
 ### v2.5.1 - stable release - 28/03/2025
 
-- Fixed an issue where the geofences weren't loaded the first time
-- Smaller bugfix
-- 
+- Fixed an issue with hashing
+- Bumped min version to iOS 14.0
+
 ### v2.5.0 - stable release - 15/11/2024
 
 - Fixed an issue where the geofences weren't loaded the first time
