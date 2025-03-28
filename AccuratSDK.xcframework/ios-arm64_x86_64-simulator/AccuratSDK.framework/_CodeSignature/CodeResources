@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		n2Q83/gjIAd7+FZEQNoq9d6Lvms=
+		qmiIwvXa34Ulvek+8dxC6PtqMbw=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VmzMA5CAPbzPKUKzZgzwREVu/oQ=
+		J3E6/ykzZx+/FwIXJE7mXYdJi7E=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		tAGrRaOonShZbHDrDz8EGvbGK8o=
+		1iOIV0g/CqN0IpvYWC6wC+s0xXc=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VmzMA5CAPbzPKUKzZgzwREVu/oQ=
+		J3E6/ykzZx+/FwIXJE7mXYdJi7E=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Oih0G2DgL4YzvtWQ7X+9Ip6PuL8=
+		g0Bi7J8tUOkuSdCmKmt9ml6ZtfI=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,19 +54,19 @@
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bYP97AxMBpEyuKj2d8YnW1vcHLI=
+		JmyBWdEk7HH0CVdCSd8cnY+fIKY=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZpZPG4I+AWI74SR2m7XYJWrHfIg=
+		XLDl2cRmXKYw4RcMrhzHOj3dwAM=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bYP97AxMBpEyuKj2d8YnW1vcHLI=
+		JmyBWdEk7HH0CVdCSd8cnY+fIKY=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/TzdyO/9y2lU7CWJcaHBME7yWmg=
+		SBbePxdnjJhIXkYHOOzMemKzCWU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,10 +81,6 @@
 	<dict>
 		<key>AlertViewController.storyboardc/A3s-ns-zP4-view-mjS-Zs-HlN.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NN6aWt/TYGXSuIGV0kzzYdMqSaw=
-			</data>
 			<key>hash2</key>
 			<data>
 			t+gCH8hx1FlBw9IWJtWx9DT2b5pGkw7/vGAiGUUwEXY=
@@ -92,10 +88,6 @@
 		</dict>
 		<key>AlertViewController.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RxJeN31pf2x0LNOEJ7UsbqGgnuc=
-			</data>
 			<key>hash2</key>
 			<data>
 			UwqDLlh33hVBP2BQJwQ2OFzND1ZeHXJhHmvWTDf0vxo=
@@ -103,10 +95,6 @@
 		</dict>
 		<key>AlertViewController.storyboardc/UIViewController-A3s-ns-zP4.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q17muFsoIzQCqYZtUwUbEF8fOho=
-			</data>
 			<key>hash2</key>
 			<data>
 			T9d6M2Iy/I5odP0eOmod/NUzqFAfkDZ9snW2rOa+lZ4=
@@ -114,10 +102,6 @@
 		</dict>
 		<key>Headers/AccuratSDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qMltgCfjzwUI76G6nPd09Kal+k8=
-			</data>
 			<key>hash2</key>
 			<data>
 			CteZxweIywEjLF2DP5P2CFKECenJBGNNpk6Xi3gi3YU=
@@ -125,10 +109,6 @@
 		</dict>
 		<key>Headers/AccuratSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BlNUIINvf4yZ9ZdmK5/UsNkq7mc=
-			</data>
 			<key>hash2</key>
 			<data>
 			bhzPye9F2gRq57hqltHD/izqezxaccxkCLDvmvkdCeM=
@@ -136,10 +116,6 @@
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			taMwLI1hBT7I+fOup4pll2Ultls=
-			</data>
 			<key>hash2</key>
 			<data>
 			6zXrxQ7BCQ5ChfTHaNWrtzmTh2DPaWeNUbq1aOISskw=
@@ -147,54 +123,34 @@
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VmzMA5CAPbzPKUKzZgzwREVu/oQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			CCQn43edOKASOYX2zZ32WA30uDVTH3AZUE0zIRyWNhI=
+			mN+IZTcxUFMWKEaq4n3LXzYT6S1YrI87PL+okA9Wsw4=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tAGrRaOonShZbHDrDz8EGvbGK8o=
-			</data>
 			<key>hash2</key>
 			<data>
-			3C+SuKaOQgKm6Rw7N8s4DOuVcNW6ZPalK3d+TD+M7a0=
+			yhIIXUnAc/zZaJJ3iuLOBhlAgxMCJUct+zZkXBPULdc=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VmzMA5CAPbzPKUKzZgzwREVu/oQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			CCQn43edOKASOYX2zZ32WA30uDVTH3AZUE0zIRyWNhI=
+			mN+IZTcxUFMWKEaq4n3LXzYT6S1YrI87PL+okA9Wsw4=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Oih0G2DgL4YzvtWQ7X+9Ip6PuL8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ryai08/LTJYC0Ga96rWapT7pJLiIq3wnHBFQsYPe2gY=
+			yJbMn8IrbSH/xfraY+L1+732AlCOo+hh/PiBCbLjSIA=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			taMwLI1hBT7I+fOup4pll2Ultls=
-			</data>
 			<key>hash2</key>
 			<data>
 			6zXrxQ7BCQ5ChfTHaNWrtzmTh2DPaWeNUbq1aOISskw=
@@ -202,54 +158,34 @@
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bYP97AxMBpEyuKj2d8YnW1vcHLI=
-			</data>
 			<key>hash2</key>
 			<data>
-			S5ZKyq3YW0n3QGf/2TFQvCd9OSaJJFA+o/jF1yZP0z8=
+			DAt4lGOUwsJeZglMW/yZR2Haig7vJDGVD0TQhA8tDsc=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZpZPG4I+AWI74SR2m7XYJWrHfIg=
-			</data>
 			<key>hash2</key>
 			<data>
-			HPOal4YVjQusU+0QBvjrr1q104eDP9/D9yBLxwFVNF0=
+			WXTgOIp1yUDh3nIuI6z3spf1DBXyp5jhwxkqTjxi0NY=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bYP97AxMBpEyuKj2d8YnW1vcHLI=
-			</data>
 			<key>hash2</key>
 			<data>
-			S5ZKyq3YW0n3QGf/2TFQvCd9OSaJJFA+o/jF1yZP0z8=
+			DAt4lGOUwsJeZglMW/yZR2Haig7vJDGVD0TQhA8tDsc=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/TzdyO/9y2lU7CWJcaHBME7yWmg=
-			</data>
 			<key>hash2</key>
 			<data>
-			x6un0gsUQT35UuiDs5ZT8Rd0RGDnTIGHfrOo2lGMQAw=
+			ps0XYAZxSHLyIforiMetdiiYRufX0CZOrC+V1ahYyGg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FdgUCtSJ5KbwX/i+lPkmcHKKAq8=
-			</data>
 			<key>hash2</key>
 			<data>
 			2XJAe7kHBPbfKIoMyd8yF2NF2r9VJsA2WPA5AJ1W5Qk=
@@ -257,10 +193,6 @@
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AHmVApv8/AMXvwaHf3DsCU+be/g=
-			</data>
 			<key>hash2</key>
 			<data>
 			e4SXCcl6+VBC+DKli/IHxSNcHK6CV5OIBCYcWXSvlq0=
