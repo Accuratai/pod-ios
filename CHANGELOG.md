@@ -1,6 +1,10 @@
 ## Changelog
 
-### v2.5.1 - stable release - 28/03/2025
+### v2.5.2 - stable release - 01/04/2025
+
+- Fixed an issue with hashing
+  
+### v2.5.1 - revoked release - 28/03/2025
 
 - Fixed an issue with hashing
 - Bumped min version to iOS 14.0
