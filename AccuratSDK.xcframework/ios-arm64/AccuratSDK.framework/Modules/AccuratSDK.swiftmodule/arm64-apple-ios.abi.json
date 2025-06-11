@@ -3082,6 +3082,50 @@
           },
           {
             "kind": "Var",
+            "name": "jsonData",
+            "printedName": "jsonData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AccuratSDK0A8GeofenceV8jsonDataSSvp",
+            "mangledName": "$s10AccuratSDK0A8GeofenceV8jsonDataSSvp",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AccuratSDK0A8GeofenceV8jsonDataSSvg",
+                "mangledName": "$s10AccuratSDK0A8GeofenceV8jsonDataSSvg",
+                "moduleName": "AccuratSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "region",
             "printedName": "region",
             "children": [
@@ -3123,7 +3167,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:nids:latitude:longitude:radius:type:)",
+            "printedName": "init(id:nids:latitude:longitude:radius:type:jsonData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3167,11 +3211,18 @@
                 "printedName": "AccuratSDK.GeofenceType",
                 "hasDefaultArg": true,
                 "usr": "s:10AccuratSDK12GeofenceTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10AccuratSDK0A8GeofenceV2id4nids8latitude9longitude6radius4typeACSS_SSS3dAA0C4TypeOtcfc",
-            "mangledName": "$s10AccuratSDK0A8GeofenceV2id4nids8latitude9longitude6radius4typeACSS_SSS3dAA0C4TypeOtcfc",
+            "usr": "s:10AccuratSDK0A8GeofenceV2id4nids8latitude9longitude6radius4type8jsonDataACSS_SSS3dAA0C4TypeOSStcfc",
+            "mangledName": "$s10AccuratSDK0A8GeofenceV2id4nids8latitude9longitude6radius4type8jsonDataACSS_SSS3dAA0C4TypeOSStcfc",
             "moduleName": "AccuratSDK",
             "declAttributes": [
               "AccessControl"
@@ -3208,6 +3259,290 @@
         "declKind": "Struct",
         "usr": "s:10AccuratSDK0A8GeofenceV",
         "mangledName": "$s10AccuratSDK0A8GeofenceV",
+        "moduleName": "AccuratSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccuratBufferNotification",
+        "printedName": "AccuratBufferNotification",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "geofenceId",
+            "printedName": "geofenceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AccuratSDK0A18BufferNotificationV10geofenceIdSSvp",
+            "mangledName": "$s10AccuratSDK0A18BufferNotificationV10geofenceIdSSvp",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AccuratSDK0A18BufferNotificationV10geofenceIdSSvg",
+                "mangledName": "$s10AccuratSDK0A18BufferNotificationV10geofenceIdSSvg",
+                "moduleName": "AccuratSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeofenceType",
+                "printedName": "AccuratSDK.GeofenceType",
+                "usr": "s:10AccuratSDK12GeofenceTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AccuratSDK0A18BufferNotificationV4typeAA12GeofenceTypeOvp",
+            "mangledName": "$s10AccuratSDK0A18BufferNotificationV4typeAA12GeofenceTypeOvp",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeofenceType",
+                    "printedName": "AccuratSDK.GeofenceType",
+                    "usr": "s:10AccuratSDK12GeofenceTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AccuratSDK0A18BufferNotificationV4typeAA12GeofenceTypeOvg",
+                "mangledName": "$s10AccuratSDK0A18BufferNotificationV4typeAA12GeofenceTypeOvg",
+                "moduleName": "AccuratSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jsonData",
+            "printedName": "jsonData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AccuratSDK0A18BufferNotificationV8jsonDataSSvp",
+            "mangledName": "$s10AccuratSDK0A18BufferNotificationV8jsonDataSSvp",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AccuratSDK0A18BufferNotificationV8jsonDataSSvg",
+                "mangledName": "$s10AccuratSDK0A18BufferNotificationV8jsonDataSSvg",
+                "moduleName": "AccuratSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AccuratSDK0A18BufferNotificationV9createdAtSSvp",
+            "mangledName": "$s10AccuratSDK0A18BufferNotificationV9createdAtSSvp",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AccuratSDK0A18BufferNotificationV9createdAtSSvg",
+                "mangledName": "$s10AccuratSDK0A18BufferNotificationV9createdAtSSvg",
+                "moduleName": "AccuratSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(geofenceId:type:jsonData:createdAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccuratBufferNotification",
+                "printedName": "AccuratSDK.AccuratBufferNotification",
+                "usr": "s:10AccuratSDK0A18BufferNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GeofenceType",
+                "printedName": "AccuratSDK.GeofenceType",
+                "usr": "s:10AccuratSDK12GeofenceTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AccuratSDK0A18BufferNotificationV10geofenceId4type8jsonData9createdAtACSS_AA12GeofenceTypeOS2Stcfc",
+            "mangledName": "$s10AccuratSDK0A18BufferNotificationV10geofenceId4type8jsonData9createdAtACSS_AA12GeofenceTypeOS2Stcfc",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccuratBufferNotification",
+                "printedName": "AccuratSDK.AccuratBufferNotification",
+                "usr": "s:10AccuratSDK0A18BufferNotificationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AccuratSDK0A18BufferNotificationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10AccuratSDK0A18BufferNotificationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AccuratSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10AccuratSDK0A18BufferNotificationV",
+        "mangledName": "$s10AccuratSDK0A18BufferNotificationV",
         "moduleName": "AccuratSDK",
         "declAttributes": [
           "AccessControl"
@@ -6205,6 +6540,35 @@
           },
           {
             "kind": "Function",
+            "name": "fetchGeofenceTriggers",
+            "printedName": "fetchGeofenceTriggers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AccuratSDK.AccuratBufferNotification]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuratBufferNotification",
+                    "printedName": "AccuratSDK.AccuratBufferNotification",
+                    "usr": "s:10AccuratSDK0A18BufferNotificationV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10AccuratSDK0A0C21fetchGeofenceTriggersSayAA0A18BufferNotificationVGyF",
+            "mangledName": "$s10AccuratSDK0A0C21fetchGeofenceTriggersSayAA0A18BufferNotificationVGyF",
+            "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getAppVersion",
             "printedName": "getAppVersion()",
             "children": [
@@ -7008,13 +7372,189 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FeatureSwitch",
+        "printedName": "FeatureSwitch",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trackTriggeredGeofences",
+            "printedName": "trackTriggeredGeofences",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AccuratSDK.FeatureSwitch.Type) -> AccuratSDK.FeatureSwitch",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureSwitch",
+                    "printedName": "AccuratSDK.FeatureSwitch",
+                    "usr": "s:10AccuratSDK13FeatureSwitchO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AccuratSDK.FeatureSwitch.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FeatureSwitch",
+                        "printedName": "AccuratSDK.FeatureSwitch",
+                        "usr": "s:10AccuratSDK13FeatureSwitchO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10AccuratSDK13FeatureSwitchO23trackTriggeredGeofencesyA2CmF",
+            "mangledName": "$s10AccuratSDK13FeatureSwitchO23trackTriggeredGeofencesyA2CmF",
+            "moduleName": "AccuratSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AccuratSDK.FeatureSwitch?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureSwitch",
+                    "printedName": "AccuratSDK.FeatureSwitch",
+                    "usr": "s:10AccuratSDK13FeatureSwitchO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10AccuratSDK13FeatureSwitchO8rawValueACSgSS_tcfc",
+            "mangledName": "$s10AccuratSDK13FeatureSwitchO8rawValueACSgSS_tcfc",
+            "moduleName": "AccuratSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10AccuratSDK13FeatureSwitchO8rawValueSSvp",
+            "mangledName": "$s10AccuratSDK13FeatureSwitchO8rawValueSSvp",
+            "moduleName": "AccuratSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10AccuratSDK13FeatureSwitchO8rawValueSSvg",
+                "mangledName": "$s10AccuratSDK13FeatureSwitchO8rawValueSSvg",
+                "moduleName": "AccuratSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10AccuratSDK13FeatureSwitchO",
+        "mangledName": "$s10AccuratSDK13FeatureSwitchO",
+        "moduleName": "AccuratSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "AccuratConfig",
         "printedName": "AccuratConfig",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:password:features:enableDebugLogs:connectToStaging:)",
+            "printedName": "init(username:password:features:enableDebugLogs:connectToStaging:featureSwitches:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7062,11 +7602,32 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Bool]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStagingACSS_SSSayAA7FeatureOGS2btcfc",
-            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStagingACSS_SSSayAA7FeatureOGS2btcfc",
+            "usr": "s:10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStaging15featureSwitchesACSS_SSSayAA7FeatureOGS2bSDySSSbGtcfc",
+            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStaging15featureSwitchesACSS_SSSayAA7FeatureOGS2bSDySSSbGtcfc",
             "moduleName": "AccuratSDK",
             "declAttributes": [
               "AccessControl"
@@ -7076,7 +7637,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(username:password:features:enableDebugLogs:connectToStaging:)",
+            "printedName": "init(username:password:features:enableDebugLogs:connectToStaging:featureSwitches:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7132,13 +7693,34 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Bool]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AccuratSDK@objc(cs)AccuratConfig(im)initWithUsername:password:features:enableDebugLogs:connectToStaging:",
-            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStagingACSS_SSSaySiGSgS2btcfc",
+            "usr": "c:@M@AccuratSDK@objc(cs)AccuratConfig(im)initWithUsername:password:features:enableDebugLogs:connectToStaging:featureSwitches:",
+            "mangledName": "$s10AccuratSDK0A6ConfigC8username8password8features15enableDebugLogs16connectToStaging15featureSwitchesACSS_SSSaySiGSgS2bSDySSSbGtcfc",
             "moduleName": "AccuratSDK",
-            "objc_name": "initWithUsername:password:features:enableDebugLogs:connectToStaging:",
+            "objc_name": "initWithUsername:password:features:enableDebugLogs:connectToStaging:featureSwitches:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -9918,6 +10500,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -9959,41 +10576,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           }
         ]
       }
@@ -10115,22 +10697,29 @@
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 4,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 747,
       "length": 14,
       "value": "\"LockingQueue\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "FloatLiteral",
-      "offset": 812,
+      "offset": 1052,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "FloatLiteral",
-      "offset": 819,
+      "offset": 1059,
       "length": 3,
       "value": "2.0"
     },
@@ -10515,77 +11104,77 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 526,
+      "offset": 590,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 595,
+      "offset": 659,
       "length": 6,
       "value": "0.0125"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 619,
+      "offset": 683,
       "length": 4,
       "value": "0.02"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 658,
+      "offset": 722,
       "length": 5,
       "value": "0.003"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 967,
+      "offset": 1031,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1011,
+      "offset": 1075,
       "length": 5,
       "value": "200.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1107,
+      "offset": 1171,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1198,
+      "offset": 1262,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1290,
+      "offset": 1354,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1401,
       "length": 23,
       "value": "\"ACCURAT_META_GEOFENCE\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceManager.swift",
       "kind": "StringLiteral",
-      "offset": 1875,
+      "offset": 1939,
       "length": 30,
       "value": "\"accurat.geofence.queue.async\""
     },
@@ -10620,93 +11209,114 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1040,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1065,
       "length": 6,
       "value": "\"nids\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1096,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1135,
+      "offset": 1127,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1155,
       "length": 8,
       "value": "\"radius\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1184,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1215,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
+      "kind": "StringLiteral",
+      "offset": 1275,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 1306,
       "length": 6,
       "value": "\"nids\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1328,
+      "offset": 1343,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1380,
       "length": 5,
       "value": "\"lng\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1399,
+      "offset": 1414,
       "length": 8,
       "value": "\"radius\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 1449,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1486,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
+      "kind": "StringLiteral",
+      "offset": 1534,
       "length": 6,
       "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/AccuratGeofence.swift",
+      "kind": "StringLiteral",
+      "offset": 2182,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/Consent.swift",
@@ -11215,7 +11825,7 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Accurat.swift",
       "kind": "BooleanLiteral",
-      "offset": 2103,
+      "offset": 2172,
       "length": 5,
       "value": "false"
     },
@@ -11362,84 +11972,84 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "BooleanLiteral",
-      "offset": 3380,
+      "offset": 3449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3506,
+      "offset": 3575,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3552,
+      "offset": 3621,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "FloatLiteral",
-      "offset": 3709,
+      "offset": 3778,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "FloatLiteral",
-      "offset": 3716,
+      "offset": 3785,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3723,
+      "offset": 3792,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3800,
+      "offset": 3869,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "FloatLiteral",
-      "offset": 3976,
+      "offset": 4045,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "FloatLiteral",
-      "offset": 3983,
+      "offset": 4052,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "IntegerLiteral",
-      "offset": 3990,
+      "offset": 4059,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "BooleanLiteral",
-      "offset": 4819,
+      "offset": 4958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/OpenLocate.swift",
       "kind": "BooleanLiteral",
-      "offset": 11786,
+      "offset": 11946,
       "length": 5,
       "value": "false"
     },
@@ -11648,38 +12258,59 @@
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 27,
+      "value": "\"TRACK_TRIGGERED_GEOFENCES\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 540,
+      "offset": 689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 572,
+      "offset": 721,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
+      "kind": "Dictionary",
+      "offset": 762,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "Array",
-      "offset": 864,
+      "offset": 1120,
       "length": 6,
       "value": "[0, 1]"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 896,
+      "offset": 1152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 928,
+      "offset": 1184,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/AccuratConfig.swift",
+      "kind": "Dictionary",
+      "offset": 1225,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Database\/Statement.swift",
@@ -11761,91 +12392,126 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 1927,
+      "offset": 2253,
       "length": 10,
       "value": "\"Geofence\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 1968,
+      "offset": 2294,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2012,
+      "offset": 2338,
       "length": 8,
       "value": "\"_geoid\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 2383,
       "length": 10,
       "value": "\"geofence\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2105,
+      "offset": 2431,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2154,
+      "offset": 2480,
       "length": 18,
       "value": "\"column_server_id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2544,
       "length": 15,
       "value": "\"RTreeGeofence\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2263,
+      "offset": 2589,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 2628,
       "length": 9,
       "value": "\"_minLat\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2345,
+      "offset": 2671,
       "length": 9,
       "value": "\"_maxLat\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2388,
+      "offset": 2714,
       "length": 9,
       "value": "\"_minLng\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "StringLiteral",
-      "offset": 2431,
+      "offset": 2757,
       "length": 9,
       "value": "\"_maxLng\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2825,
+      "length": 20,
+      "value": "\"NotificationBuffer\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2888,
+      "length": 5,
+      "value": "\"_id\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2942,
+      "length": 10,
+      "value": "\"geofence\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 3063,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 2533,
+      "offset": 3168,
       "length": 1,
       "value": "2"
     },

@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.6.0 - stable release - 11/06/2025
+
+- Added the option to store notifications locally and fetch them via the SDK
+
 ### v2.5.2 - stable release - 01/04/2025
 
 - Fixed an issue with hashing
