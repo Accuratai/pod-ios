@@ -254,6 +254,16 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ```
 
+### Additional features? (optional)
+
+If you want to enable extra features, contact Accurat for the correct values
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    Accurat.shared.initialize(username: "ACCURAT_USERNAME", password: "ACCURAT_PASSWORD", enableDebugLogs: true, featureSwitches: ["TRACK_TRIGGERED_GEOFENCES": true])
+}
+```
+
 ### Is tracking enabled? (optional)
 
 If you want to know if the tracking is enabled or not, call the `isTrackingEnabled` variable:
@@ -279,6 +289,14 @@ func application(_ application: UIApplication, didReceive notification: UILocalN
 ```
 
 `notification.userInfo` will contain the extra data that is related to that notification.
+
+### NotificationsBuffer (optional)
+
+If you want to fetch all the stored geofenceTriggers, you can call the following function
+
+```swift
+func fetchGeofenceTriggers() -> [AccuratBufferNotification]
+```
 
 ### Set language (optional)
 

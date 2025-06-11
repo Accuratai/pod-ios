@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-4.1.50 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AccuratSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-4.1.50 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AccuratSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 @_exported import AccuratSDK
 import AdSupport
 import CoreLocation.CLLocation
@@ -122,10 +122,19 @@ public struct AccuratGeofence : Swift.Decodable {
   public let longitude: CoreLocation.CLLocationDegrees
   public let radius: CoreLocation.CLLocationDistance
   public let type: AccuratSDK.GeofenceType
+  public let jsonData: Swift.String
   public var region: CoreLocation.CLRegion {
     get
   }
-  public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance, type: AccuratSDK.GeofenceType = .unknown)
+  public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance, type: AccuratSDK.GeofenceType = .unknown, jsonData: Swift.String = "")
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AccuratBufferNotification : Swift.Decodable {
+  public let geofenceId: Swift.String
+  public let type: AccuratSDK.GeofenceType
+  public let jsonData: Swift.String
+  public let createdAt: Swift.String
+  public init(geofenceId: Swift.String, type: AccuratSDK.GeofenceType, jsonData: Swift.String, createdAt: Swift.String)
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum ConsentType : Swift.String, Swift.Codable {
@@ -245,6 +254,7 @@ extension Foundation.URLRequest {
   public func invokeRight(right: Swift.String, info: Swift.String?, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
   public func setMeta(key: Swift.String, value: Swift.String, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)?)
   public func getMeta(completion: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  public func fetchGeofenceTriggers() -> [AccuratSDK.AccuratBufferNotification]
   public func getAppVersion() -> Swift.String
   public func getAppBuildVersion() -> Swift.String
   public func getSDKVersion() -> Swift.String
@@ -275,9 +285,17 @@ extension Foundation.Data {
     get
   }
 }
+public enum FeatureSwitch : Swift.String {
+  case trackTriggeredGeofences
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @objc public class AccuratConfig : ObjectiveC.NSObject {
-  public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false)
-  @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false)
+  public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false, featureSwitches: [Swift.String : Swift.Bool] = [:])
+  @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false, featureSwitches: [Swift.String : Swift.Bool] = [:])
   @objc deinit
 }
 public protocol InteractServiceProtocol {
@@ -317,3 +335,6 @@ extension AccuratSDK.Reachability.Connection : Swift.Hashable {}
 extension AccuratSDK.Feature : Swift.Equatable {}
 extension AccuratSDK.Feature : Swift.Hashable {}
 extension AccuratSDK.Feature : Swift.RawRepresentable {}
+extension AccuratSDK.FeatureSwitch : Swift.Equatable {}
+extension AccuratSDK.FeatureSwitch : Swift.Hashable {}
+extension AccuratSDK.FeatureSwitch : Swift.RawRepresentable {}
