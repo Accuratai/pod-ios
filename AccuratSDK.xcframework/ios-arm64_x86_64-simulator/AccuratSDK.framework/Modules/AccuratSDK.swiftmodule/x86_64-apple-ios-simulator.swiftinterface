@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-4.1.50 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-4.1.50 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AccuratSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 @_exported import AccuratSDK
 import AdSupport
 import CoreLocation.CLLocation
@@ -42,11 +42,17 @@ public enum HashType {
   }
 }
 extension Swift.String {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
+  #endif
 }
 extension Swift.String {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func base64Encoded() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func base64Decoded() -> Swift.String?
+  #endif
 }
 public struct Interact : Swift.Codable {
   public let uuid: Foundation.UUID
@@ -58,7 +64,9 @@ public struct Interact : Swift.Codable {
   public let campaignStart: Foundation.Date?
   public let campaignEnd: Foundation.Date?
   public let campaignId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(campaign: Swift.String, touchpoint: Swift.String, group: Swift.String, uuid: Foundation.UUID = UUID(), timestamp: Swift.String = Date().iso8601, campaignStart: Foundation.Date? = nil, campaignEnd: Foundation.Date? = nil, campaignId: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -75,7 +83,9 @@ public struct AccuratLocateLocation {
     case extraGeofenceExit
     case backgroundFetch
     case significantLocationChange
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -94,22 +104,26 @@ extension AccuratSDK.AccuratLocateLocation : Swift.Equatable {
   case nl
   case fr
   case en
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 public struct AccuratGeofenceRange {
-  public let latitudeRange: CoreLocation.CLLocationDegrees
-  public let longitudeRange: CoreLocation.CLLocationDegrees
+  public let latitudeRange: _LocationEssentials.CLLocationDegrees
+  public let longitudeRange: _LocationEssentials.CLLocationDegrees
 }
 public enum GeofenceType : Swift.String, Swift.Codable {
   case unknown
   case exit
   case entry
   case dwell
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -118,15 +132,15 @@ public enum GeofenceType : Swift.String, Swift.Codable {
 public struct AccuratGeofence : Swift.Decodable {
   public let id: Swift.String
   public let nids: Swift.String
-  public let latitude: CoreLocation.CLLocationDegrees
-  public let longitude: CoreLocation.CLLocationDegrees
-  public let radius: CoreLocation.CLLocationDistance
+  public let latitude: _LocationEssentials.CLLocationDegrees
+  public let longitude: _LocationEssentials.CLLocationDegrees
+  public let radius: _LocationEssentials.CLLocationDistance
   public let type: AccuratSDK.GeofenceType
   public let jsonData: Swift.String
   public var region: CoreLocation.CLRegion {
     get
   }
-  public init(id: Swift.String, nids: Swift.String, latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, radius: CoreLocation.CLLocationDistance, type: AccuratSDK.GeofenceType = .unknown, jsonData: Swift.String = "")
+  public init(id: Swift.String, nids: Swift.String, latitude: _LocationEssentials.CLLocationDegrees, longitude: _LocationEssentials.CLLocationDegrees, radius: _LocationEssentials.CLLocationDistance, type: AccuratSDK.GeofenceType = .unknown, jsonData: Swift.String = "")
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct AccuratBufferNotification : Swift.Decodable {
@@ -143,7 +157,9 @@ public enum ConsentType : Swift.String, Swift.Codable {
   case locationPermission
   case alwaysLocationPermission
   case preciseLocationPermission
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -189,9 +205,11 @@ public class Reachability {
   }
   public var whenReachable: AccuratSDK.Reachability.NetworkReachable?
   public var whenUnreachable: AccuratSDK.Reachability.NetworkUnreachable?
+  @available(*, deprecated: 4.0, renamed: "allowsCellularConnection")
   final public let reachableOnWWAN: Swift.Bool
   public var allowsCellularConnection: Swift.Bool
   public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated: 4.0, renamed: "connection.description")
   public var currentReachabilityString: Swift.String {
     get
   }
@@ -202,20 +220,29 @@ public class Reachability {
   public var connection: AccuratSDK.Reachability.Connection {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  #endif
   @objc deinit
 }
 extension AccuratSDK.Reachability {
   public func startNotifier() throws
   public func stopNotifier()
+  @available(*, deprecated: 4.0, message: "Please use `connection != .none`")
   public var isReachable: Swift.Bool {
     get
   }
+  @available(*, deprecated: 4.0, message: "Please use `connection == .cellular`")
   public var isReachableViaWWAN: Swift.Bool {
     get
   }
+  @available(*, deprecated: 4.0, message: "Please use `connection == .wifi`")
   public var isReachableViaWiFi: Swift.Bool {
     get
   }
@@ -243,16 +270,30 @@ extension Foundation.URLRequest {
   @objc public func initialize(username: Swift.String, password: Swift.String, enableDebugLogs: Swift.Bool = false)
   @objc public func initialize(config: AccuratSDK.AccuratConfig)
   @objc public func setLanguage(_ language: AccuratSDK.LanguageOption)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func startTracking(_ onComplete: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func forceStartTracking(_ onComplete: (() -> Swift.Void)? = nil)
+  #endif
   @objc public func stopTracking()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func getCurrentLocationAsJSON(completion: (Swift.String?, (any Swift.Error)?) -> Swift.Void) throws
+  #endif
   @objc public func performBackgroundFetchWithCompletionHandler(_ completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCurrentLocation(completion: (AccuratSDK.AccuratLocateLocation?, (any Swift.Error)?) -> Swift.Void) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func interact(_ group: Swift.String, campaign: Swift.String, touchpoint: Swift.String, campaignStart: Foundation.Date? = nil, campaignEnd: Foundation.Date? = nil, campaignId: Swift.String? = nil, onComplete: ((Swift.Bool) -> Swift.Void)?)
+  #endif
   @objc public func getSegments(onComplete: @escaping (Swift.Array<Swift.String>) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func invokeRight(right: Swift.String, info: Swift.String?, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setMeta(key: Swift.String, value: Swift.String, completion: ((Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)?)
+  #endif
   public func getMeta(completion: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   public func fetchGeofenceTriggers() -> [AccuratSDK.AccuratBufferNotification]
   public func getAppVersion() -> Swift.String
@@ -266,20 +307,28 @@ extension AccuratSDK.Accurat {
   @objc dynamic public func updateTrackingConsent(state: Swift.Int)
   public func updateConsent(_ type: AccuratSDK.ConsentType, state: Swift.Int)
   @objc dynamic public func updateConsentObjc(_ type: Swift.String, state: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getConsentState(_ type: AccuratSDK.ConsentType = .gdprConsent) -> Swift.Int?
+  #endif
   @objc dynamic public func getConsentStateObjc(_ type: Swift.String) -> Swift.Int
 }
 extension AccuratSDK.Accurat {
-  @objc dynamic public func onLocationUpdate(callback: @escaping ([CoreLocation.CLLocation]) -> Swift.Void)
+  @objc dynamic public func onLocationUpdate(callback: @escaping ([_LocationEssentials.CLLocation]) -> Swift.Void)
 }
 extension Foundation.Data {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func hashWithRSA2048Asn1Header(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func hashed(_ type: AccuratSDK.HashType, output: AccuratSDK.HashOutputType = .hex) -> Swift.String?
+  #endif
 }
 @objc public enum Feature : Swift.Int {
   case gdpr
   case location
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -287,7 +336,9 @@ extension Foundation.Data {
 }
 public enum FeatureSwitch : Swift.String {
   case trackTriggeredGeofences
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -295,19 +346,29 @@ public enum FeatureSwitch : Swift.String {
 }
 @objc public class AccuratConfig : ObjectiveC.NSObject {
   public init(username: Swift.String, password: Swift.String, features: [AccuratSDK.Feature] = [.gdpr, .location], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false, featureSwitches: [Swift.String : Swift.Bool] = [:])
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(username: Swift.String, password: Swift.String, features: [Swift.Int]? = [0, 1], enableDebugLogs: Swift.Bool = false, connectToStaging: Swift.Bool = false, featureSwitches: [Swift.String : Swift.Bool] = [:])
+  #endif
   @objc deinit
 }
 public protocol InteractServiceProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   func interact(_ group: Swift.String, campaign: Swift.String, touchpoint: Swift.String, campaignStart: Foundation.Date?, campaignEnd: Foundation.Date?, campaignId: Swift.String?, onComplete: ((Swift.Bool) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendInteracts(onComplete: ((Swift.Bool) -> Swift.Void)?)
+  #endif
 }
 @_hasMissingDesignatedInitializers public class InteractService : AccuratSDK.InteractServiceProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func interact(_ group: Swift.String, campaign: Swift.String, touchpoint: Swift.String, campaignStart: Foundation.Date?, campaignEnd: Foundation.Date?, campaignId: Swift.String?, onComplete: ((Swift.Bool) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendInteracts(onComplete: ((Swift.Bool) -> Swift.Void)?)
+  #endif
   @objc deinit
 }
-public typealias LocationsHandler = ([(location: CoreLocation.CLLocation, context: AccuratSDK.AccuratLocateLocation.Context)]) -> Swift.Void
+public typealias LocationsHandler = ([(location: _LocationEssentials.CLLocation, context: AccuratSDK.AccuratLocateLocation.Context)]) -> Swift.Void
 public class LoggingService {
   public static var shared: AccuratSDK.LoggingService
   public init()
