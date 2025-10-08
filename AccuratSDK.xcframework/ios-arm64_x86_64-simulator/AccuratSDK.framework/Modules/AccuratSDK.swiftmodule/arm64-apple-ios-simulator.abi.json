@@ -4188,6 +4188,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4806,7 +4813,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5025,7 +5033,8 @@
             "mangledName": "$s10AccuratSDK12ReachabilityC07currentC6StringSSvp",
             "moduleName": "AccuratSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "accessors": [
               {
@@ -5305,6 +5314,7 @@
             "mangledName": "$s10AccuratSDK12ReachabilityC11isReachableSbvp",
             "moduleName": "AccuratSDK",
             "declAttributes": [
+              "Available",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -5346,6 +5356,9 @@
             "usr": "s:10AccuratSDK12ReachabilityC18isReachableViaWWANSbvp",
             "mangledName": "$s10AccuratSDK12ReachabilityC18isReachableViaWWANSbvp",
             "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "Available"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -5385,6 +5398,9 @@
             "usr": "s:10AccuratSDK12ReachabilityC18isReachableViaWiFiSbvp",
             "mangledName": "$s10AccuratSDK12ReachabilityC18isReachableViaWiFiSbvp",
             "moduleName": "AccuratSDK",
+            "declAttributes": [
+              "Available"
+            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -6875,7 +6891,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([CoreLocation.CLLocation]) -> ()",
+                "printedName": "([_LocationEssentials.CLLocation]) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -6885,12 +6901,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[CoreLocation.CLLocation]",
+                    "printedName": "[_LocationEssentials.CLLocation]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CLLocation",
-                        "printedName": "CoreLocation.CLLocation",
+                        "printedName": "_LocationEssentials.CLLocation",
                         "usr": "c:objc(cs)CLLocation"
                       }
                     ],
@@ -8685,6 +8701,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -8769,6 +8792,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
             "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
             "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
@@ -8780,13 +8810,6 @@
             "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
             "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
             "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinStringLiteral",
-            "printedName": "_ExpressibleByBuiltinStringLiteral",
-            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
-            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
           },
           {
             "kind": "Conformance",
@@ -9215,6 +9238,35 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -9380,6 +9432,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9510,6 +9569,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -9729,6 +9795,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9827,6 +9900,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9923,6 +10003,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -10086,6 +10173,7 @@
         "intro_tvOS": "9.0",
         "intro_watchOS": "2.0",
         "declAttributes": [
+          "AddressableForDependencies",
           "Frozen",
           "Available",
           "Available",
@@ -10451,6 +10539,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -10576,6 +10671,35 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       }
