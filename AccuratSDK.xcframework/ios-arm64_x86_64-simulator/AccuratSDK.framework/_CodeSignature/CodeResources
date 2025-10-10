@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tdYM+bfjtDeB0Ay7kBxSGSfBKgY=
+		4qslUgqD3w8I8AM9w7Q89kEIhyA=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tdYM+bfjtDeB0Ay7kBxSGSfBKgY=
+		4qslUgqD3w8I8AM9w7Q89kEIhyA=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7VKr/cR72ZERTZu6LbrZCfddt+L8n+yFs2wJvPiK5Z8=
+			opn+fj19aW9fqcEjz8I1+gjhb9f0vbuke4c5BtpaknU=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7VKr/cR72ZERTZu6LbrZCfddt+L8n+yFs2wJvPiK5Z8=
+			opn+fj19aW9fqcEjz8I1+gjhb9f0vbuke4c5BtpaknU=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
