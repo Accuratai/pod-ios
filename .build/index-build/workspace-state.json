@@ -1,0 +1,31 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "pod",
+          "kind" : "root",
+          "location" : "/Users/mathiasvanhoutte/Documents/git/accurat-github/pod",
+          "name" : "pod"
+        },
+        "path" : "/Users/mathiasvanhoutte/Documents/git/accurat-github/pod/AccuratSDK.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "AccuratSDK"
+      }
+    ],
+    "dependencies" : [
+
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
