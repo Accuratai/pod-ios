@@ -1,5 +1,13 @@
 ## Changelog
 
+### v2.6.3 - stable release - 08/12/2025
+
+- Fixed an issue where background tasks weren't properly ended
+
+### v2.6.2 - stable release - 10/10/2025
+
+- Bugfixes
+
 ### v2.6.1 - stable release - 08/10/2025
 
 - Fixed an issue where notifications weren't shown
