@@ -290,6 +290,20 @@ func application(_ application: UIApplication, didReceive notification: UILocalN
 
 `notification.userInfo` will contain the extra data that is related to that notification.
 
+### Local Notifications
+
+If you want to receive local notifications, make sure to extend the `AppDelegate` with `UNUserNotificationCenterDelegate`
+and set how you want to receive the notifications
+
+```swift
+extension AppDelegate: UNUserNotificationCenterDelegate {
+	func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+		completionHandler([.banner, .sound])
+	}
+}
+```
+Note: if this is not set, you will not receive local notifications
+
 ### NotificationsBuffer (optional)
 
 If you want to fetch all the stored geofenceTriggers, you can call the following function
