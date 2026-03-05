@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.6.4 - stable release - 05/03/2026
+
+- Fixed an issue where the UNNotificationCenter delegate was overriden internally
+
 ### v2.6.3 - stable release - 08/12/2025
 
 - Fixed an issue where background tasks weren't properly ended
