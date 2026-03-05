@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qPCuNH0zD69iq+XLiIUV8WtTt+Q=
+		H1ktyLZGKujsqmryAecj/uOImw4=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dBZ1JIg3HF6IqPqWF+17HoDwdNc=
+		4r250k6gYw60HxNSmQXiwWdzhag=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sQVpp/j/ctgxR1GGfFoBsIsTZIw=
+		LCn5ZyKBCdCyBdzeXRcDA3rWbWk=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dBZ1JIg3HF6IqPqWF+17HoDwdNc=
+		4r250k6gYw60HxNSmQXiwWdzhag=
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fq26jZThenlRK/+5BcxqudLWt0I=
+		ih+Dw2RkHUn9NUlQJYf2ift6Xj8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PkqT/c/THzDZZd1Wkgq8KA7kKPQK2gMDPF2rzJeO1/w=
+			1NXAwsAa8nFTG29SnMpN46QKJiorY8dkdwaW9EMbAeE=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -146,14 +146,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XE+3xwoj7vH3cKl/Vgrgg6Xjnp952Hkzoj2BYFG6XiI=
+			p4mG1n6gQME+MdAX/LsAL3jRy5xjY5vNRbEOdmg2UZ8=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PkqT/c/THzDZZd1Wkgq8KA7kKPQK2gMDPF2rzJeO1/w=
+			1NXAwsAa8nFTG29SnMpN46QKJiorY8dkdwaW9EMbAeE=
 			</data>
 		</dict>
 		<key>Modules/AccuratSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -181,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJHwwKOTC01bKm/xa66Bk9TFIFBk3/swziFM/1z9s1o=
+			J9Cn9daRIhnmJYnfPix3oNURZ48m3Ucu2NXM223R5dg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

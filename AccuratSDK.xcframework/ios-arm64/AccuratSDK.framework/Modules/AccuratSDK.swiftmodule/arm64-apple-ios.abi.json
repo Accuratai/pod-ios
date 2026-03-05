@@ -10829,21 +10829,21 @@
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 713,
       "length": 14,
       "value": "\"LockingQueue\""
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1052,
+      "offset": 1018,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/mathiasvanhoutte\/Documents\/git\/accurat-github\/sdk\/AccuratSDK\/Source\/Core\/GeofenceNotificationManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1059,
+      "offset": 1025,
       "length": 3,
       "value": "2.0"
     },

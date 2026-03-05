@@ -295,6 +295,7 @@ func application(_ application: UIApplication, didReceive notification: UILocalN
 If you want to receive local notifications, make sure to extend the `AppDelegate` with `UNUserNotificationCenterDelegate`
 and set how you want to receive the notifications
 
+
 ```swift
 extension AppDelegate: UNUserNotificationCenterDelegate {
 	func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
@@ -303,6 +304,13 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
 }
 ```
 Note: if this is not set, you will not receive local notifications
+
+Don't forget to set the delegate in the `AppDelegate`
+```swift
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+		UNUserNotificationCenter.current().delegate = self
+	}
+```
 
 ### NotificationsBuffer (optional)
 
