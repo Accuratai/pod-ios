@@ -7,5 +7,4 @@ framework module AccuratSDK {
 
 module AccuratSDK.Swift {
   header "AccuratSDK-Swift.h"
-  requires objc
 }

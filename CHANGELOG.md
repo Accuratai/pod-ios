@@ -1,5 +1,10 @@
 ## Changelog
 
+### v2.6.5 - stable release - 13/07/2026
+
+- Fixed an issue where the logger would crash cause unsafe threading
+
+
 ### v2.6.4 - stable release - 05/03/2026
 
 - Fixed an issue where the UNNotificationCenter delegate was overriden internally
