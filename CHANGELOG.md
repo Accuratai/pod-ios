@@ -1,5 +1,9 @@
 ## Changelog
 
+### v2.6.6 - stable release - 05/08/2026
+
+- Pass the data as encoded string to the userInfo of a local notification
+
 ### v2.6.5 - stable release - 13/07/2026
 
 - Fixed an issue where the logger would crash cause unsafe threading
